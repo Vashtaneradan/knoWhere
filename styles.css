@@ -1,0 +1,68 @@
+body{
+    background-color: #333;
+}
+#gamebody {
+    min-width: 300px;
+    width: 80vw;
+    max-width: 1000px;
+    height: 40vw;
+    min-height: 150px;
+    background-color: #555;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 20vw;
+    min-width: 75px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+#logo img {
+    width: 100%;
+}
+
+/*-------------Login----------------------------------*/
+
+#loginwrapper h1, #login,#loginwrapper p{
+    width: 173px;
+    margin: 0 auto;
+}
+#btnlogin {
+    margin-left: 125px;
+}
+#loginwrapper h1, #login input,#loginwrapper p{
+    margin-top: 20px;
+}
+#loginwrapper{
+    padding-top: 10%;
+}
+#loginwrapper h1{
+    color: #fff;
+}
+#loginwrapper a{
+    color: #fff;
+    margin-left: 67px;
+}
+
+/*-------------Registrieren----------------------------------*/
+
+#registerwrapper h1, #register,#registerwrapper p{
+    width: 173px;
+    margin: 0 auto;
+}
+#btnregister {
+    margin-left: 108px;
+}
+#registerwrapper h1, #register input,#registerwrapper p{
+    margin-top: 20px;
+}
+#registerwrapper{
+    padding-top: 10%;
+}
+#registerwrapper h1{
+    color: #fff;
+}
+#registerwrapper a{
+    color: #fff;
+    margin-left: 23px;
+}
