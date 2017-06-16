@@ -1,5 +1,5 @@
 <!--Formular für das registrieren -->
-<div id="registerwrapper">
+<div id="registerwrapper gamebody-background">
     <h1>Register</h1>
     <form name="register" method="post" action="register-action.php" id="register">
         <input type="text" name="username" id="username" placeholder="Username">

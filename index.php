@@ -21,6 +21,9 @@
         case "register":
             require("register.php"); //einbinden der Registrierung
             break;
+        case "menue":
+            require("menue.php"); //einbinden der Registrierung
+            break;
         case "login":
         default: //falls keine passende datei gefunden wurde
             require("login.php"); //einbinden der Loginseite

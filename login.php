@@ -1,7 +1,7 @@
 <?php
 ?>
 <!--Formular für den Login -->
-<div id="loginwrapper">
+<div id="loginwrapper gamebody-background">
     <h1>Login</h1>
     <form name="login" method="post" action="login-action.php" id="login">
         <input type="text" name="username" id="username" placeholder="Username">
