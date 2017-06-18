@@ -22,7 +22,7 @@ if(!isset($_SESSION['errormsg']))
             <div id="fehlerMeldungLogin">
         	        <?php echo $_SESSION['errormsg'] ?>
             </div> 
-            <form name="login" method="post" action="login-action.php" id="login">
+            <form name="login" method="post" action="php/LoginPHP.php" id="login">
                 <label for="username">Benutzername:</label>
                 <input type="text" name="username" id="username" placeholder="Username">
                 <label for="password">Passwort:</label>
