@@ -6,6 +6,10 @@ general
 -------
 fixed project setup to include graphics, php, scripts, styles, userData folders
 
+index.php
+---------
+adjusted file path for logo to current project setup
+
 login.php
 ---------
 added header & body structure
