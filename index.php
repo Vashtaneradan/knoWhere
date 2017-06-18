@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div id="logo"><img src="knoWhere_Logo@4x.png"></div> <!-- logo einbinden -->
+<div id="logo"><img src="graphics/logo/knoWhere_Logo@4x.png"></div> <!-- logo einbinden -->
 <div id="gamebody">
     <?php
     if (!isset($_GET["page"])) {
