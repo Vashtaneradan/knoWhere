@@ -1,0 +1,48 @@
+﻿############
+#17.06.2017#
+############
+
+general
+-------
+fixed project setup to include graphics, php, scripts, styles, userData folders
+
+index.php
+---------
+adjusted file path for logo to current project setup
+
+login.php
+---------
+added header & body structure
+added labels for username and password
+added required attribute into login form
+added starting of session
+added errormsg for wrong username/password
+changed action attribute to point to the right php-Script (LoginPHP.php)
+
+loginErfolgreich.php
+--------------------
+added starting of session
+added header & body structure
+added greeting message
+added redirection after 5 seconds to "menue.php"
+
+LoginPHP.php
+------------
+added starting of session
+implemented login logic
+added redirection to "loginErfolgreich.php" on successful login
+added deletion of session-variable 'errormsg' on successful login
+added redirection to "index.php" on error
+
+menue.php
+---------
+added starting of session
+added php Session printout for debug purposes
+
+register.php
+------------
+added header & body structure
+added labels for desired username and password
+added required attribute into register form
+changed title from Login to Registrieren
+added starting of session
