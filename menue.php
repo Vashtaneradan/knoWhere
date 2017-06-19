@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <div class="menuewrapper gamebody-background">
 
     <div class="left">
@@ -15,5 +18,12 @@
            in Zukunft spielen können ohne sich erst
            alles unnötig zusammen reimen zu müssen</p>
         <p>Viel Spaß</p>
+    </div>
+    <!--<div id="test">
+    	<?php 
+    	echo "<p>Debug-Test!</p>";
+    	echo "<p>Diese Daten sind nun in der Session:</p>";
+    	print_r($_SESSION);
+    	?>-->
     </div>
 </div>

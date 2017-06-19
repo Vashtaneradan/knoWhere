@@ -1,0 +1,8 @@
+﻿Buglist (++ major bugs, -- minor bugs)
+-------
+
+++buttons in menu don't work
+
+++user can simply change sites by editing html link
+
+--after error message is displayed for wrong login credential by changing sites with login/register link, error message doesn't reset
