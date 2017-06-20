@@ -1,2 +1,2 @@
-﻿konsti|konstipw
- abc|abc
+konsti|konstipw
+abc|abc
