@@ -1,9 +1,8 @@
-<?php
-?>
+
 <!--Formular für den Login -->
-<div id="loginwrapper gamebody-background">
+<div id="loginwrapper">
     <h1>Login</h1>
-    <form name="login" method="post" action="login-action.php" id="login">
+    <form name="login" method=post" action="login-action.php" id="login">
         <input type="text" name="username" id="username" placeholder="Username">
         <input type="password" name="password" id="password" placeholder="Password">
         <input type="submit" value="Login" name="btnlogin" id="btnlogin">
