@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="de">
 <head>
@@ -23,6 +26,18 @@
             break;
         case "menue":
             require("Templates/menue.php"); //einbinden der Registrierung
+            break;
+        case "registrierungErfolgreich":
+            require("Templates/registrierungErfolgreich.php"); //einbinden der erfolgreichen Registrierung
+            break;
+        case "LoginErfolhreich":
+            require("Templates/loginErfolgreich.php"); //einbinden ders erfolgreichen Login
+            break;
+        case "RegisterPHP":
+            require("php/RegisterPHP.php"); //einbinden ders erfolgreichen Login
+            break;
+        case "LoginPHP":
+            require("php/LoginPHP.php"); //einbinden ders erfolgreichen Login
             break;
         case "login":
         default: //falls keine passende datei gefunden wurde

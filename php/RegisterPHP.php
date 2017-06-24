@@ -1,7 +1,6 @@
 <?php
-	session_start();
 	$_SESSION['errormsgReg'] = '';
-	$userListRead = file('../userData/users.txt');
+	$userListRead = file('userData/users.txt');
 	
 	$usernameError = false;
 	$usernameUsed = false;
@@ -69,7 +68,7 @@ if ($usernameError)
 		unset ($newuser);
 		unset ($passwordError);
 		unset ($usernameError);*/
-		header("location:../index.php?page=register");
+		header("location:index.php?page=register");
 		exit;
 }
 
@@ -87,7 +86,7 @@ if($passwordError)
 		unset ($newuser);
 		unset ($passwordError);
 		unset ($usernameError);*/
-		header("location:../index.php?page=register");
+		header("location:index.php?page=register");
 		exit;
 }
 
@@ -105,7 +104,7 @@ if($usernameUsed)
 		unset ($newuser);
 		unset ($passwordError);
 		unset ($usernameError);*/
-		header("location:../index.php?page=register");
+		header("location:index.php?page=register");
 		exit;	
 }
 
@@ -123,20 +122,20 @@ if($passwordMismatch)
 		unset ($newuser);
 		unset ($passwordError);
 		unset ($usernameError);*/
-		header("location:../index.php?page=register");
+		header("location:index.php?page=register");
 		exit;
 }
 
 if( (!$usernameError)&&(!$passwordError)&& (!$usernameUsed)&&(!$passwordMismatch))
 {
 		$_SESSION['username'] = $Username;
-			$userListWrite = fopen('../userData/users.txt', "a");
+			$userListWrite = fopen('userData/users.txt', "a");
 			$newuser = PHP_EOL. $Username . "|" . $Password;
 			fwrite($userListWrite, $newuser);
 			fclose($userListWrite);
 		unset($_SESSION['errormsgReg']);
 		unset($_SESSION['errormsg']);
-		header("location:../Templates/registrierungErfolgreich.php");
+		header("location:index.php?page=registrierungErfolgreich");
 		exit;
 }
 	

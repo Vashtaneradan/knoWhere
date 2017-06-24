@@ -1,5 +1,4 @@
 <?php
-session_start();
 if (!isset($_SESSION['errormsgReg']))
     $_SESSION['errormsgReg'] = '';
 ?>
@@ -8,7 +7,7 @@ if (!isset($_SESSION['errormsgReg']))
     <h1>Register</h1>
     <div id="fehlerMeldungRegistrierung">
         <?php echo $_SESSION['errormsgReg'] ?>
-        <form name="register" method="post" action="../php/RegisterPHP.php" id="register">
+        <form name="register" method="post" action="index.php?page=RegisterPHP" id="register">
             <label for="username">Wunsch-Benutzername:</label>
             <input type="text" name="username" id="username" required placeholder="Username">
             <label for="password">Passwort:</label>
@@ -17,6 +16,6 @@ if (!isset($_SESSION['errormsgReg']))
             <input type="password" name="passwordrepeat" id="passwordrepeat" required placeholder="Password (again)">
             <input type="submit" value="Register" name="btnregister" id="btnregister">
         </form>
-        <p><a href="../index.php?page=login">oder zurück zum Login</a></p>
+        <p><a href="index.php?page=login">oder zurück zum Login</a></p>
     </div>
 </div>

@@ -1,7 +1,6 @@
 <?php
-	session_start();
 	$_SESSION['errormsg'] = '';
-	$userListe = file('../userData/users.txt');
+	$userListe = file('userData/users.txt');
 	
 	
 	$success = false;
@@ -61,7 +60,7 @@
 		$_SESSION['username'] = $Username;
 		unset($_SESSION['errormsg']);
 		unset($_SESSION['errormsgReg']);
-		header("location:../Templates/loginErfolgreich.php");
+		header("location:index.php?page=LoginErfolhreich");
 		exit;
 	}
 	/*Wenn Fehler auftritt, benutzername oder kennwort falsch, dann
@@ -71,7 +70,7 @@
 	else 
 	{
 		$_SESSION['errormsg']="<span style='color:red'>Login-Daten ungültig!</span>";
-		header("location:../index.php");
+		header("location:index.php");
 		exit;
 	}
 	
