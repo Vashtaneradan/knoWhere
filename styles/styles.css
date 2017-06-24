@@ -17,11 +17,17 @@ body{
     min-height: 150px;
     margin: 0 auto;
     position: relative;
-}
-.gamebody-background{
     background-color: #555;
 
 }
+/*#gamebody-background{
+    background-color: #555;
+
+}
+.gamebody-background{
+    background-color: #555555;
+}
+*/
 
 #logo{
     width: 30vw;
@@ -85,7 +91,7 @@ body{
     display: flex;
     height: 100%;
     position: absolute;
-    z-index: -2;
+    /*z-index: -2;*/
 }
 
 .left,  .right{
@@ -97,8 +103,9 @@ body{
 .left{
     border-right: solid #333333 2px;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+/*------cooleres button design (before/ after not fixed)
 .left button{
     color: #0e0e0e;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -145,8 +152,19 @@ button, input[type="radio"] + label {
     background: #333;
     box-shadow: 0 1px 0px rgba(255, 255, 255, 0.4), inset 0 3px 3px rgba(0, 0, 0, 0.7), inset 0 0 4px rgba(0, 0, 0, 0.9), 0 0 0 black;
 }
-
-
+*/
+.left button{
+    background-color: aqua;
+    border: dashed;
+    border-color: #333333;
+    color: #333333;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+    display: inline-block;
+}
 
 
 .right h1{

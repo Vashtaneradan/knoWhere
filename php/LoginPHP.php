@@ -61,7 +61,7 @@
 		$_SESSION['username'] = $Username;
 		unset($_SESSION['errormsg']);
 		unset($_SESSION['errormsgReg']);
-		header("location:../loginErfolgreich.php");
+		header("location:../Templates/loginErfolgreich.php");
 		exit;
 	}
 	/*Wenn Fehler auftritt, benutzername oder kennwort falsch, dann

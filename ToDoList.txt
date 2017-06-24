@@ -1,5 +1,0 @@
-﻿TodoList
---------
-
-- Implement proper placing for login and register form labels
-- Implement Logout button in menue

@@ -136,7 +136,7 @@ if( (!$usernameError)&&(!$passwordError)&& (!$usernameUsed)&&(!$passwordMismatch
 			fclose($userListWrite);
 		unset($_SESSION['errormsgReg']);
 		unset($_SESSION['errormsg']);
-		header("location:../registrierungErfolgreich.php");
+		header("location:../Templates/registrierungErfolgreich.php");
 		exit;
 }
 	

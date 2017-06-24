@@ -19,14 +19,14 @@
     //herausfinden über parameter page welde Datei geladen werden soll
     switch ($_GET["page"]) {
         case "register":
-            require("register.php"); //einbinden der Registrierung
+            require("Templates/register.php"); //einbinden der Registrierung
             break;
         case "menue":
-            require("menue.php"); //einbinden der Registrierung
+            require("Templates/menue.php"); //einbinden der Registrierung
             break;
         case "login":
         default: //falls keine passende datei gefunden wurde
-            require("login.php"); //einbinden der Loginseite
+            require("Templates/login.php"); //einbinden der Loginseite
             break;
     }
     ?>
