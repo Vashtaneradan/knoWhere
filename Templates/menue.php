@@ -1,8 +1,11 @@
 <div class="menuewrapper">
 
     <div class="left">
-
-        <button type="button" class="button">Start</button>
+        <div class="wrap11">
+            <div class="table">
+                <a class="button" href="index.php?page=Quiz&Continent=Europa">Start</a>
+            </div>
+        </div>
         <button type="button" class="button">High Score</button>
         <button type="button" class="button">Optionen</button>
         <button type="button" class="button">Log Out</button>
@@ -21,7 +24,7 @@
         <p>Viel Spaß</p>
     </div>
     <!--<div id="test">
-    	<?php 
+    	<?php
     	echo "<p>Debug-Test!</p>";
     	echo "<p>Diese Daten sind nun in der Session:</p>";
     	print_r($_SESSION);

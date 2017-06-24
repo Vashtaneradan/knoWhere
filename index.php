@@ -39,6 +39,13 @@ session_start();
         case "LoginPHP":
             require("php/LoginPHP.php"); //einbinden ders erfolgreichen Login
             break;
+        case "Quiz":
+            require("php/getQuestion.php");
+            require("Templates/Quiz.php");
+            break;
+        case "QuizAnswer":
+            require("php/QuizAnswer.php");
+            break;
         case "login":
         default: //falls keine passende datei gefunden wurde
             require("Templates/login.php"); //einbinden der Loginseite

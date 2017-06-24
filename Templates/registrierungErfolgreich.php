@@ -3,7 +3,7 @@
 
     <?php
     header("refresh:3;url=index.php?page=login");
-    echo "<span id='loginmsg'>Hallo " . $_SESSION['username'] . "! Danke für die Registrierung!</span>";
+    echo "<div id='loginmsg'>Hallo " . $_SESSION['username'] . "! Danke für die Registrierung!</div>";
     exit;
     ?>
 

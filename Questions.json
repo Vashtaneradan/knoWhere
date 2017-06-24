@@ -1,0 +1,80 @@
+{
+  "Europa": [
+    {
+      "question": "Höchster Berg Europas?",
+      "answer": [
+        "Mont Blanc",
+        "Matterhorn",
+        "Großglockner",
+        "Dom",
+        "Ätna",
+        "Liskamm",
+        "Zugspitze",
+        "Olymp"
+      ],
+      "solution": "Mont Blanc"
+    },
+    {
+      "question": "Längster Fluss Europas?",
+      "answer": [
+        "Wolga",
+        "Donau",
+        "Ural",
+        "Dnepr",
+        "Rhein",
+        "Inn",
+        "Petschora",
+        "Oka"
+      ],
+      "solution": "Wolga"
+    },
+    {
+      "question": "Wie viele Mitgliedsstaaten hat die Europäische Union?",
+      "answer": [
+        "27",
+        "30",
+        "15",
+        "24",
+        "42",
+        "18",
+        "20",
+        "25"
+      ],
+      "solution": "27"
+    },
+    {
+      "question": "Wie viele Sterne hat die Flagge der EU?",
+      "answer": [
+        "12",
+        "14",
+        "10",
+        "25",
+        "27",
+        "9",
+        "1",
+        "5"
+      ],
+      "solution": "12"
+    },
+    {
+      "question": "Welche Inseln gehören zu Italien?",
+      "answer": [
+        "Sizilien Sardinien Elba Lampedusa",
+        "Sizilien Korsika Elba Lampedusa",
+        "Sizilien Sardinien Malta Lampedusa",
+        "Mallorca Sardinien Malta Lampedusa"
+      ],
+      "solution": "Sizilien Sardinien Elba Lampedusa"
+    },
+    {
+      "question": "Welchen Segen spricht der Papst an Weihnachten und Ostern?",
+      "answer": [
+        "Urbi et Orbi",
+        "Carpe diem",
+        "Ora et Labora",
+        "Ora et Orbi"
+      ],
+      "solution": "Urbi et Orbi"
+    }
+  ]
+}

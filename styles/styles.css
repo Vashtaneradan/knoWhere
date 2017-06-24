@@ -1,25 +1,29 @@
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 /* fancy zeugs siehe https://css-tricks.com/box-sizing/   */
 /*----------------index----------------------------------*/
-body{
+body {
     background-color: #333;
 }
+
 #gamebody {
     min-width: 300px;
     width: 80vw;
     max-width: 1000px;
-    height: 40vw;
+    height: 35vw;
     min-height: 150px;
     margin: 0 auto;
     position: relative;
     background-color: #555;
 
 }
+
 /*#gamebody-background{
     background-color: #555;
 
@@ -29,151 +33,193 @@ body{
 }
 */
 
-#logo{
+#logo {
     width: 30vw;
     min-width: 75px;
     max-width: 250px;
     margin: 0 auto;
 }
+
 #logo img {
     width: 100%;
 }
 
 /*-------------Login----------------------------------*/
 
-#loginwrapper h1, #login,#loginwrapper p{
+#loginwrapper h1, #login, #loginwrapper p {
     width: 173px;
     margin: 0 auto;
 }
+
 #btnlogin {
     margin-left: 125px;
 }
-#loginwrapper h1, #login input,#loginwrapper p{
+
+#loginwrapper h1, #login input, #loginwrapper p {
     margin-top: 20px;
 }
-#loginwrapper{
+
+#loginwrapper {
     padding-top: 10%;
 }
-#loginwrapper h1{
+
+#loginwrapper h1 {
     color: #fff;
 }
-#loginwrapper a{
+
+#loginwrapper a {
     color: #fff;
     margin-left: 67px;
 }
 
 /*-------------Registrieren----------------------------------*/
 
-#registerwrapper h1, #register,#registerwrapper p{
+#registerwrapper h1, #register, #registerwrapper p {
     width: 173px;
     margin: 0 auto;
 }
+
 #btnregister {
     margin-left: 108px;
 }
-#registerwrapper h1, #register input,#registerwrapper p{
+
+#registerwrapper h1, #register input, #registerwrapper p {
     margin-top: 20px;
 }
-#registerwrapper{
+
+#registerwrapper {
     padding-top: 10%;
 }
-#registerwrapper h1{
+
+#registerwrapper h1 {
     color: #fff;
 }
-#registerwrapper a{
+
+#registerwrapper a {
     color: #fff;
     margin-left: 23px;
 }
 
 /*---------------Menue----------------------------------------*/
 
-.menuewrapper{
+.menuewrapper {
     display: flex;
     height: 100%;
     position: absolute;
+    color: white;
     /*z-index: -2;*/
 }
 
-.left,  .right{
+.left, .right {
 
     width: 50%;
     height: 100%;
 
 }
-.left{
+
+.left {
     border-right: solid #333333 2px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
-/*------cooleres button design (before/ after not fixed)
-.left button{
-    color: #0e0e0e;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
-    font-weight: bold;
-    letter-spacing: .08em;
-    width: 242px;
-    height: 39.6px;
-    line-height: 39.6px;
-    position: relative;
-    border-radius: 30px;
-    background-size: 100%;
-    background-image: linear-gradient(#2e3537, #424748);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), inset 0 -1px 0 rgba(0, 0, 0, 0.3), inset 0 0 0px 1px rgba(0, 0, 0, 0.1), 0 0 1px rgba(0, 0, 0, 0.5), 0 2px 2px rgba(0, 0, 0, 0.4);
-}
-button, input[type="radio"] + label {
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-}
-.left button::after{
-    width: 253px;
-    height: 49.5px;
-    top: -4.95px;
-    margin-left: 50%;
-    left: -126.5px;
-    content: '';
-    display: block;
-    border-radius: 30px;
-    background-size: 100%;
-    background-image: linear-gradient(#2af1fc, #17b2e6);
-    box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.7), 0 1px 1px rgba(255, 255, 255, 0.4), 0 0 1px 1px rgba(0, 0, 0, 0.3), inset 0 0px 3px rgba(0, 0, 0, 0.4), inset 0 1px 2px rgba(0, 0, 0, 0.6);
-    position: absolute;
-    z-index: -1;
-}
-.left button:hover {
-    color: #AEAEAE;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
-}
-.left button:active {
-    color: #00ccff;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3), 0 0px 30px rgba(0, 255, 255, 0.7);
-    background: #333;
-    box-shadow: 0 1px 0px rgba(255, 255, 255, 0.4), inset 0 3px 3px rgba(0, 0, 0, 0.7), inset 0 0 4px rgba(0, 0, 0, 0.9), 0 0 0 black;
-}
-*/
-.left button{
-    background-color: aqua;
-    border: dashed;
+
+.left .button {
+    background-color: #00b3ff;
+    border: solid;
     border-color: #333333;
     color: #333333;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
     cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.warp11 {
     display: inline-block;
 }
 
-
-.right h1{
-text-align: center;
+.left .table {
+    width: calc(100% - 65px - 65px);
+    height: calc(100% - 40px - 40px);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 65px;
+    margin-right: 65px;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
 }
-.right{
-    padding-left: 10px;
-    padding-right: 10px;
+
+.right h1 {
+    text-align: center;
 }
 
+.right {
+    padding-left: 65px;
+    padding-right: 55px;
+}
 
+/*-------------------------Login Erfolgreich------------------------------------*/
 
+#loginErfolgreichwrapper h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+#loginmsg {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+/*--------------------------------Quiz--------------------------------------------*/
+
+#quizwrapper {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100%;
+}
+
+#highscore {
+    background: gold;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#quiz {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    background: greenyellow;
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+}
+
+.answer-a {
+    background-color: #00b3ff;
+}
+
+.answer-b {
+    background-color: orangered;
+}
+
+.answer-c {
+    background-color: darkmagenta;
+}
+
+.answer-d {
+    background-color: yellow;
+}
+
+#quiz input {
+    display: none;
+}
