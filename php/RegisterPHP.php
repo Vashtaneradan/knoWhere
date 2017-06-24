@@ -1,6 +1,6 @@
 <?php
 	$_SESSION['errormsgReg'] = '';
-	$userListRead = file('userData/users.txt');
+	$userListe = file('userData/users.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 	
 	$usernameError = false;
 	$usernameUsed = false;
