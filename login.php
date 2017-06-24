@@ -4,7 +4,7 @@ if(!isset($_SESSION['errormsg']))
 	$_SESSION['errormsg'] = '';
 ?>
 	<!--Formular für den Login -->
-	<div id="loginwrapper gamebody-background">
+	<div id="loginwrapper">
     <h1>Login</h1>
     <div id="fehlerMeldungLogin">
     	<?php echo $_SESSION['errormsg'] ?>
@@ -18,4 +18,3 @@ if(!isset($_SESSION['errormsg']))
     </form>
     <p><a href="index.php?page=register">oder registrieren</a></p>
 </div>
-
