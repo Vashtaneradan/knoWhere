@@ -1,4 +1,7 @@
-<div class="menuewrapper>
+<?php
+session_start();
+?>
+<div class="menuewrapper">
 
     <div class="left">
 
@@ -19,5 +22,12 @@
             im dazugehörigen Land gefunden werden </p>
         <p>Wenn alles beantwortet ist kann der nächste Kontinent gespielt werden.</p>
         <p>Viel Spaß</p>
+    </div>
+    <!--<div id="test">
+    	<?php 
+    	echo "<p>Debug-Test!</p>";
+    	echo "<p>Diese Daten sind nun in der Session:</p>";
+    	print_r($_SESSION);
+    	?>-->
     </div>
 </div>
