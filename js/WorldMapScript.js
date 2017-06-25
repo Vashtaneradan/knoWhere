@@ -1,9 +1,9 @@
 ﻿var parts = [];
 parts.push(Asien);
 parts.push(Afrika);
-parts.push(Australien);
+parts.push(Australien_Ozeanien);
 parts.push(Europa);
-parts.push(Südamerika);
+parts.push(Suedamerika);
 parts.push(Nordamerika);
 
 for (var i = 0; i < parts.length; i++) 
