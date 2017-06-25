@@ -6,7 +6,9 @@ if(!isset($_SESSION['errormsg']))
 	<div id="loginwrapper">
     <h1>Login</h1>
     <div id="fehlerMeldungLogin">
-    	<?php echo $_SESSION['errormsg'] ?>
+    	<?php 
+    	echo $_SESSION['errormsg'];
+    	?>
     </div>
     <form name="loginFormular" method="post" action="index.php?page=LoginPHP" id="login">
         <label for="username">Benutzername:</label>

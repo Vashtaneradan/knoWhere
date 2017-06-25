@@ -3,7 +3,8 @@
     <div class="left">
         <div class="wrap11">
             <div class="table">
-                <a class="button" href="index.php?page=Quiz&Continent=Europa">Start</a>
+                <!-- <a class="button" href="index.php?page=Quiz&Continent=Europa">Start</a> -->
+            	<a class="button" href="index.php?page=SelectContinent">Start</a>
             </div>
         </div>
         <button type="button" class="button">High Score</button>
