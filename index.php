@@ -45,6 +45,7 @@ session_start();
             break;
         case "QuizAnswer":
             require("php/QuizAnswer.php");
+            require("Templates/QuizAnswered.php");
             break;
         case "login":
         default: //falls keine passende datei gefunden wurde

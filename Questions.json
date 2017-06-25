@@ -1,9 +1,21 @@
 {
+  "test":[
+    {
+      "question": "IS this test?",
+      "answer": [
+        "Nein1",
+        "Nein2",
+        "Nein3",
+        "Nein4",
+        "Nein5"
+      ],
+      "solution": "Ja"
+    }
+  ],
   "Europa": [
     {
       "question": "Höchster Berg Europas?",
       "answer": [
-        "Mont Blanc",
         "Matterhorn",
         "Großglockner",
         "Dom",
@@ -17,7 +29,6 @@
     {
       "question": "Längster Fluss Europas?",
       "answer": [
-        "Wolga",
         "Donau",
         "Ural",
         "Dnepr",
@@ -31,7 +42,6 @@
     {
       "question": "Wie viele Mitgliedsstaaten hat die Europäische Union?",
       "answer": [
-        "27",
         "30",
         "15",
         "24",
@@ -45,7 +55,6 @@
     {
       "question": "Wie viele Sterne hat die Flagge der EU?",
       "answer": [
-        "12",
         "14",
         "10",
         "25",
@@ -59,7 +68,6 @@
     {
       "question": "Welche Inseln gehören zu Italien?",
       "answer": [
-        "Sizilien Sardinien Elba Lampedusa",
         "Sizilien Korsika Elba Lampedusa",
         "Sizilien Sardinien Malta Lampedusa",
         "Mallorca Sardinien Malta Lampedusa"
@@ -69,7 +77,6 @@
     {
       "question": "Welchen Segen spricht der Papst an Weihnachten und Ostern?",
       "answer": [
-        "Urbi et Orbi",
         "Carpe diem",
         "Ora et Labora",
         "Ora et Orbi"
@@ -79,7 +86,6 @@
     {
       "question": "Wo steht das größte Riesenrad Europas?",
       "answer": [
-        "Großbritannien",
         "Italien",
         "Russland",
         "Finnland",
@@ -93,7 +99,6 @@
     {
       "question": "Welche Länder gehören zum Baltikum?",
       "answer": [
-        "Estland Lettland Litauen",
         "Luxemburg Litauen Lettland",
         "Finnland Norwegen Schweden",
         "Niederlande Belgien Luxemburg",
@@ -107,7 +112,6 @@
     {
       "question": "Wo hat der Europäische Gerichtshof seinen Hauptsitz?",
       "answer": [
-        "Luxemburg",
         "Dänemark",
         "Deutschland",
         "Frankreich",
@@ -121,7 +125,6 @@
     {
       "question": "Welches Land gehört nicht zu Europa?",
       "answer": [
-        "Marokko",
         "Albanien",
         "Liechtenstein",
         "Mazedonien"
@@ -130,11 +133,9 @@
     }
   ],
   "Nordamerika": [
-
     {
       "question": "In der Kindergeschichte „Oh, wie schön ist … “ von Janosch suchen der kleine Tiger und der kleine Bär nach welchem nordamerikanischen Land?",
       "answer": [
-        "Panama",
         "Mexiko",
         "Honduras",
         "Kanada",
@@ -149,7 +150,6 @@
       "question": "Welches mysteriöse Dreieck zwischen Florida, Bermuda und Puerto Rico sorgt mit zahlreichen Katastrophen für Schlagzeilen?",
       "answer": [
         "das Pythagoras-Dreieck",
-        "das Bermuda-Dreieck",
         "das Dreieck von Linee",
         "das Trilygon",
         "das Polygon",
@@ -162,7 +162,6 @@
     {
       "question": "Welches nordamerikanische Land hat die größte Fläche?",
       "answer": [
-        "Kanada",
         "Vereinigte Staaten",
         "Mexiko",
         "Grönland"
@@ -174,8 +173,7 @@
       "answer": [
         "Missouri",
         "Arkansas",
-        "Ontario",
-        "Mississippi"
+        "Ontario"
       ],
       "solution": "Mississippi"
     },
@@ -184,8 +182,7 @@
       "answer": [
         "große Feuerinsel",
         "Insel der Stürme",
-        "Ort des Reichtums",
-        "Ich verstehe deine Sprache nicht"
+        "Ort des Reichtums"
       ],
       "solution": "Ich verstehe deine Sprache nicht"
     },
@@ -194,7 +191,6 @@
       "answer": [
         "Mount Koyukon",
         "Bolscha Gora",
-        "Mount McKinley",
         "Mount Hudson"
       ],
       "solution": "Mount McKinley"
@@ -203,7 +199,6 @@
       "question": "Der tiefste Punkt der Vereinigten Staaten ist das Death Valley. Wie tief unter dem Meeresspiegel liegt das Tal des Todes?",
       "answer": [
         "43 Meter",
-        "86 Meter",
         "129 Meter",
         "176 Meter"
       ],
@@ -214,7 +209,6 @@
       "answer": [
         "Boston und Sacramento",
         "Columbia und San Francisco",
-        "Chicago und Los Angeles",
         "Cincinnati und San Bernadino"
       ],
       "solution": "Chicago und Los Angeles"
@@ -222,7 +216,6 @@
     {
       "question": "Die Bezeichnung Eskimo für die Völker im nördlichen Polargebiet stammt etymologisch von dem Cree-Wort aayaskimeew ab. Wie wird dies übersetzt?",
       "answer": [
-        "Schneeschuhflechter",
         "Rohfleischesser",
         "Menschen die eine andere Sprache sprechen",
         "Kajakfahrer"
@@ -232,7 +225,6 @@
     {
       "question": "Welche zu Haiti gehörende Insel diente im 17. Jahrhundert insbesondere Piraten und Bukanieren als Unterschlupf?",
       "answer": [
-        "Tortuga",
         "Montserrat",
         "Sint Eustatius",
         "Barbados",
@@ -243,11 +235,9 @@
     }
   ],
   "Südamerika": [
-
     {
       "question": "Welche Sprache wird in fast allen südamerikanischen Staaten gesprochen?",
       "answer": [
-        "Spanisch",
         "Portugiesisch",
         "Englisch",
         "Französisch"
@@ -259,7 +249,6 @@
       "answer": [
         "Azteken",
         "Tolteken",
-        "Inka",
         "Maya"
       ],
       "solution": "Inka"
@@ -268,7 +257,6 @@
       "question": "Welcher See ist mit einer Fläche von 8288 Quadratkilometern der größte See Südamerikas?",
       "answer": [
         "Maracaibo-See",
-        "Titicaca-See",
         "Rio Desaguadero",
         "Poopo-See"
       ],
@@ -279,15 +267,13 @@
       "answer": [
         "Manaus",
         "Rio de Janeiro",
-        "Salvador",
-        "Sao Paulo"
+        "Salvador"
       ],
       "solution": "Sao Paulo"
     },
     {
       "question": "Der längste Fluss in Südamerika ist zugleich einer der wasserreichsten Flüsse der Erde. Wie heißt er?",
       "answer": [
-        "Amazonas",
         "Rio Negro",
         "Abuna",
         "Aconcagua"
@@ -298,7 +284,6 @@
       "question": "Wie heißt die Küstenwüste, die sich in Nordchile befindet?",
       "answer": [
         "Chihuahua-Wüste",
-        "Atacama-Wüste",
         "Taklamakan-Wüste",
         "Negev-Wüste"
       ],
@@ -309,7 +294,6 @@
       "answer": [
         "Ecuador",
         "Kolumbien",
-        "Peru",
         "Bolivien"
       ],
       "solution": "Peru"
@@ -317,7 +301,6 @@
     {
       "question": "Die beeindruckenden Iguazu-Wasserfälle befinden sich in welchem südamerikanischen Land?",
       "answer": [
-        "Argentinien",
         "Brasilien",
         "Chile",
         "Bolivien"
@@ -327,7 +310,6 @@
     {
       "question": "Welche Stadt in Brasilien ist für ihren farbenprächtigen Karneval bekannt?",
       "answer": [
-        "Rio de Janeiro",
         "Fortaleza",
         "Recife",
         "Belo Horizonte"
@@ -339,19 +321,16 @@
       "answer": [
         "Popocatepetl",
         "Acatenango",
-        "Aconcagua",
         "Chimborasso"
       ],
       "solution": "Aconcagua"
     }
   ],
   "Afrika": [
-
     {
       "question": "Welche dieser Wüsten befindet sich nicht in Afrika?",
       "answer": [
         "Sahara",
-        "Gobi",
         "Kalahari",
         "Namib"
       ],
@@ -360,7 +339,6 @@
     {
       "question": "Welcher Staat in Afrika erlangte im Juli 2011 die Unabhängigkeit?",
       "answer": [
-        "Südsudan",
         "Uganda",
         "Ruanda",
         "Burundi"
@@ -372,7 +350,6 @@
       "answer": [
         "Nairobi, Kenia",
         "Harare, Simbabwe",
-        "Windhoek, Namibia",
         "Maputo, Mosambik"
       ],
       "solution": "Windhoek, Namibia"
@@ -380,7 +357,6 @@
     {
       "question": "Welches ist das bevölkerungsreichste Land in Afrika?",
       "answer": [
-        "Nigeria",
         "Äthiopien",
         "Kenia",
         "Tansania"
@@ -392,8 +368,7 @@
       "answer": [
         "60",
         "42",
-        "34",
-        "54"
+        "34"
       ],
       "solution": "54"
     },
@@ -402,8 +377,7 @@
       "answer": [
         "Kenia",
         "Sambia",
-        "Mosambik",
-        "Tansania"
+        "Mosambik"
       ],
       "solution": "Tansania"
     },
@@ -412,7 +386,6 @@
       "answer": [
         "große Kupfervorkommen",
         "erhebliche Platinreserven",
-        "riesige Grundwassermengen",
         "ausgiebige Erdölspeicher"
       ],
       "solution": "riesige Grundwassermengen"
@@ -420,7 +393,6 @@
     {
       "question": "Der Film „ … darf nicht sterben“ von Bernhard und Michael Grzimek erzählt von den Anfängen welches Nationalparks in Afrika?",
       "answer": [
-        "Serengeti-Nationalpark",
         "Chobe-Nationalpark",
         "Caprivi-Nationalpark",
         "Queen-Elizabeth-Nationalpark"
@@ -431,7 +403,6 @@
       "question": "Welches ist die größte Insel in Afrika?",
       "answer": [
         "Sansibar",
-        "Madagaskar",
         "Mauritius",
         "La Reunion"
       ],
@@ -439,11 +410,9 @@
     }
   ],
   "Asien": [
-
     {
       "question": "Welches ist das flächenmäßig größte Land in Asien?",
       "answer": [
-        "Russland",
         "China",
         "Saudi-Arabien",
         "Kasachstan"
@@ -454,7 +423,6 @@
       "question": "In welchem Land Leben die meisten Menschen in Asien?",
       "answer": [
         "Indien",
-        "China",
         "Russland",
         "Indonesien"
       ],
@@ -463,7 +431,6 @@
     {
       "question": "Welcher asiatische See ist der tiefste und zugleich älteste See der Erde?",
       "answer": [
-        "Baikalsee",
         "Kawaguchi-See",
         "Chenghai-See",
         "Gurudongmar-See"
@@ -475,7 +442,6 @@
       "answer": [
         "K2",
         "Mont Blanc",
-        "Mount Everest",
         "Chamlang"
       ],
       "solution": "Mount Everest"
@@ -483,7 +449,6 @@
     {
       "question": "Angkor Wat, eine der bekanntesten Tempelanlagen in Asien, befindet sich in welchem asiatischen Land?",
       "answer": [
-        "Kambodscha",
         "Thailand",
         "Vietnam",
         "Tibet"
@@ -495,7 +460,6 @@
       "answer": [
         "Wasser",
         "Erdöl",
-        "Sand",
         "Gold"
       ],
       "solution": "Sand"
@@ -505,7 +469,6 @@
       "answer": [
         "Südkorea",
         "Laos",
-        "Vietnam",
         "Nepal"
       ],
       "solution": "Vietnam"
@@ -514,7 +477,6 @@
       "question": "Aus welchem Land kam Dschingis Khan, auch Temüjin genannt?",
       "answer": [
         "Ungarn",
-        "Mongolei",
         "Türkei",
         "Usbekistan"
       ],
@@ -525,19 +487,16 @@
       "answer": [
         "Hinduismus",
         "Buddhismus",
-        "das Christentum",
-        "der Islam"
+        "das Christentum"
       ],
       "solution": "der Islam"
     }
   ],
   "Australien/Ozeanien": [
-
     {
       "question": "Was war die höchste in °C gemessene Temperatur im australischen Outback?",
       "answer": [
         "71,4",
-        "69,3",
         "51,9",
         "60,2"
       ],
@@ -548,7 +507,6 @@
       "answer": [
         "Tjukurpa",
         "Palya",
-        "Uluru",
         "Nyuntu"
       ],
       "solution": "Uluru"
@@ -558,15 +516,13 @@
       "answer": [
         "Tuvalu",
         "Hawaii",
-        "Norfolk-Insel",
-        "Osterinsel"
+        "Norfolk-Insel"
       ],
       "solution": "Osterinsel"
     },
     {
       "question": "Welches Tier hat Neuseeland als Nationaltier auserkoren?",
       "answer": [
-        "Kiwi",
         "Pinguin",
         "Goldfisch",
         "Albatros"
@@ -578,7 +534,6 @@
       "answer": [
         "Dezember bis Februar",
         "März bis Mai",
-        "Juni bis August",
         "September bis November"
       ],
       "solution": "Juni bis August"
@@ -586,7 +541,6 @@
     {
       "question": "Vor der Nordküste Australiens befindet sich das größte Korallenriff der Erde. Das ...?",
       "answer": [
-        "",
         "Belize-Barrier-Reef",
         "Neukaledonisches-Barrier-Reef",
         "Mayotte-Barrier-Reef"
@@ -596,7 +550,6 @@
     {
       "question": "Welche ist die größte Stadt (Einwohnerzahl) in Australien?",
       "answer": [
-        "Sydney",
         "Perth",
         "Adelaide",
         "Newcastle"
@@ -608,7 +561,6 @@
       "answer": [
         "Port Moresby",
         "Auckland",
-        "Wellington",
         "Melbourne"
       ],
       "solution": "Wellington"
@@ -618,8 +570,7 @@
       "answer": [
         "Vasco da Gama",
         "Marco Polo",
-        "Christoph Kolumbus",
-        "James Cook"
+        "Christoph Kolumbus"
       ],
       "solution": "James Cook"
     }
