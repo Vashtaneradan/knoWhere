@@ -1,81 +1,81 @@
 ﻿Afrika******************************************************************
 
-Frage: Welche dieser Wüsten befindet sich nicht in Afrika?
-Antworten: Sahara, Gobi, Kalahari, Namib
-Lösung: Gobi
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welcher Staat in Afrika erlangte im Juli 2011 die Unabhängigkeit?
-Antworten: Südsudan, Uganda, Ruanda, Burundi
-Lösung: Südsudan
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Mit welcher afrikanischen Stadt hat Berlin eine Städtepartnerschaft?
-Antworten: Nairobi, Kenia; Harare, Simbabwe; Windhoek, Namibia; Maputo, Mosambik;
-Lösung: Windhoek, Namibia
+Frage:
+Antworten: , ; , ; , ; , ;
+Lösung:
 
-Frage: Welches ist der längste Fluss in Afrika?
-Antworten: Kongo, Niger, Ubangi, Nil
-Lösung: Nil
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welches ist das bevölkerungsreichste Land in Afrika?
-Antworten: Nigeria, Äthiopien, Kenia, Tansania
-Lösung: Nigeria
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Wie viele Länder hat Afrika insgesamt?
-Antworten: 60, 42, 34, 54
-Lösung: 54
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: In welchem Land befindet sich der Kibo, der höchste Berg Afrikas?
-Antworten: Kenia, Sambia, Mosambik, Tansania
-Lösung: Tansania
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Was wurde im Februar 2012 tief im Boden von Afrika entdeckt?
-Antworten: große Kupfervorkommen, erhebliche Platinreserven, riesige Grundwassermengen, ausgiebige Erdölspeicher
-Lösung: riesige Grundwassermengen
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Der Film „ … darf nicht sterben“ von Bernhard und Michael Grzimek erzählt von den Anfängen welches Nationalparks in Afrika?
-Antworten: Serengeti-Nationalpark, Chobe-Nationalpark, Caprivi-Nationalpark, Queen-Elizabeth-Nationalpark
-Lösung: Serengeti-Nationalpark
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welches ist die größte Insel in Afrika?
-Antworten: Sansibar, Madagaskar, Mauritius, La Reunion
+Frage:
+Antworten: , , ,
 Lösung:
 
 Asien*******************************************************************
 
-Frage: Welches ist das flächenmäßig größte Land in Asien?
-Antworten: Russland, China, Saudi-Arabien, Kasachstan
+Frage:
+Antworten: , , ,
 Lösung: Russland
 
-Frage: In welchem Land Leben die meisten Menschen in Asien?
-Antworten: Indien, China, Russland, Indonesien
-Lösung: China
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welcher asiatische See ist der tiefste und zugleich älteste See der Erde?
-Antworten: Baikalsee, Kawaguchi-See, Chenghai-See, Gurudongmar-See
-Lösung: Baikalsee
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Der höchste Berg im Himalaya ist der … ?
-Antworten: K2, Mont Blanc, Mount Everest, Chamlang
-Lösung: Mount Everest
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Angkor Wat, eine der bekanntesten Tempelanlagen in Asien, befindet sich in welchem asiatischen Land?
-Antworten: Kambodscha, Thailand, Vietnam, Tibet
-Lösung: Kambodscha
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Für welchen Rohstoff gaben Dubai und die anderen Staaten der Vereinigten Arabischen Emirate 2014 rund 456 Millionen Dollar aus?
-Antworten: Wasser, Erdöl, Sand, Gold
-Lösung: Sand
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: In welchem Land zerstörten von den USA abgeworfene Chemikalien rund 44 Prozent der Waldbestände?
-Antworten: Südkorea, Laos, Vietnam, Nepal
-Lösung: Vietnam
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Aus welchem Land kam Dschingis Khan, auch Temüjin genannt?
-Antworten: Ungarn, Mongolei, Türkei, Usbekistan
-Lösung: Mongolei
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Alle heutigen Weltreligionen haben ihren Ursprung in Asien. Welche Religion hat in Asien die meisten Anhänger?
-Antworten: Hinduismus, Buddhismus, das Christentum, der Islam
+Frage:
+Antworten: , , ,
 Lösung: der Islam
 
 Frage: Um ungefähr welchen Faktor ist der 6380 km lange Jangtsekiang, der längste Fluss Asiens, länger als der Rhein?
@@ -84,44 +84,44 @@ Lösung:
 
 Australien/Ozeanien*****************************************************
 
-Frage: Was war die höchste in °C gemessene Temperatur im australischen Outback?
-Antworten: 71,4; 69,3; 51,9; 60,2;
-Lösung: 69,3
-
-Frage: Wie nennen die Aborigines den Ayers Rock, das bekannteste Wahrzeichen Australiens?
-Antworten: Tjukurpa, Palya, Uluru, Nyuntu
-Lösung: Uluru
-
-Frage: Auf welcher polynesischen Insel stehen mysteriöse, kolossale Steinstatuen welche Moai genannt werden?
-Antworten: Tuvalu, Hawaii, Norfolk-Insel, Osterinsel
-Lösung: Osterinsel
-
-Frage: Welches Tier hat Neuseeland als Nationaltier auserkoren?
-Antworten: Kiwi, Pinguin, Goldfisch, Albatros
-Lösung: Kiwi
-
-Frage: In welcher Zeit herrscht in Australien Winter?
-Antworten: Dezember bis Februar, März bis Mai, Juni bis August, September bis November
-Lösung: Juni bis August
-
-Frage: Vor der Nordküste Australiens befindet sich das größte Korallenriff der Erde. Das ...?
-Antworten: Great-Barrier-Reef, Belize-Barrier-Reef, Neukaledonisches-Barrier-Reef, Mayotte-Barrier-Reef
+Frage:
+Antworten: ; ; ; ;
 Lösung:
 
-Frage: Welche ist die größte Stadt (Einwohnerzahl) in Australien?
-Antworten: Sydney, Perth, Adelaide, Newcastle
-Lösung: Sydney
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Wie heißt die Hauptstadt von Neuseeland?
-Antworten: Port Moresby, Auckland, Wellington, Melbourne
-Lösung: Wellington
+Frage:
+Antworten: , , ,
+Lösung: Osterinsel
+
+Frage:
+Antworten: , , ,
+Lösung:
+
+Frage:
+Antworten: , , ,
+Lösung:
+
+Frage:
+Antworten: , , ,
+Lösung:
+
+Frage:
+Antworten: , , ,
+Lösung:
+
+Frage:
+Antworten: , , ,
+Lösung:
 
 Frage: Was bedeutet der Name Australien, abgeleitet vom lateinischen Begriff „terra australis“ ?
 Antworten: trockener Boden, roter Stein, südliches Land, unbekanntes Land
 Lösung: südliches Land
 
-Frage: Welcher Entdecker nahm Australien 1770 als Kolonie für die britische Krone in Besitz?
-Antworten: Vasco da Gama, Marco Polo, Christoph Kolumbus, James Cook
+Frage:
+Antworten: , , ,
 Lösung: James Cook
 
 Europa******************************************************************
@@ -150,102 +150,102 @@ Frage:
 Antworten: , ,
 Lösung:
 
-Frage: Wo steht das größte Riesenrad Europas?
-Antworten: Großbritannien, Italien, Russland, Finnland
-Lösung: Großbritannien
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welche Länder gehören zum Baltikum?
-Antworten: Estland Lettland Litauen, Luxemburg Litauen Lettland, Finnland Norwegen Schweden, Niederlande Belgien Luxemburg
-Lösung: Estland Lettland Litauen
+Frage:
+Antworten: ,, ,
+Lösung:
 
-Frage: Wo hat der Europäische Gerichtshof seinen Hauptsitz?
-Antworten: Luxemburg, Dänemark, Deutschland, Frankreich
-Lösung: Luxemburg
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welches Land gehört nicht zu Europa?
-Antworten: Marokko, Albanien, Liechtenstein, Mazedonien
-Lösung: Marokko
+Frage:
+Antworten: , , ,
+Lösung:
 
 Nordamerika*************************************************************
 
-Frage: In der Kindergeschichte „Oh, wie schön ist … “ von Janosch suchen der kleine Tiger und der kleine Bär nach welchem nordamerikanischen Land?
-Antworten: Panama, Mexiko, Honduras, Kanada
-Lösung: Panama
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welches mysteriöse Dreieck zwischen Florida, Bermuda und Puerto Rico sorgt mit zahlreichen Katastrophen für Schlagzeilen?
-Antworten: das Pythagoras-Dreieck, das Bermuda-Dreieck, das Dreieck von Linee, das Trilygon
-Lösung: das Bermuda-Dreieck
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welches nordamerikanische Land hat die größte Fläche?
-Antworten: Kanada, Vereinigte Staaten, Mexiko, Grönland
-Lösung: Kanada
+Frage:
+Antworten: , , ,
+Lösung:
 
 Frage: Welcher amerikanische Bundesstaat wird gerne von Kindern zum Abzählen von Sekunden benutzt? (eins … zwei … drei …)
-Antworten: Missouri, Arkansas, Ontario, Mississippi
-Lösung: Mississippi
+Antworten: , , ,
+Lösung:
 
-Frage: Yucatan ist eine Halbinsel Mittelamerikas und war früher von Maya besiedelt. Was heißt Yucatan übersetzt aus Mayathan?
-Antworten: große Feuerinsel, Insel der Stürme, Ort des Reichtums, Ich verstehe deine Sprache nicht
-Lösung: Ich verstehe deine Sprache nicht
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Wie heißt der höchste Berg Nordamerikas, der sich in Alaska befindet?
-Antworten: Mount Koyukon, Bolscha Gora, Mount McKinley, Mount Hudson
-Lösung: Mount McKinley
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Der tiefste Punkt der Vereinigten Staaten ist das Death Valley. Wie tief unter dem Meeresspiegel liegt das Tal des Todes?
-Antworten: 43 Meter, 86 Meter, 129 Meter, 176 Meter
-Lösung: 86 Meter
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welche beiden Städte verband die legendäre Route 66?
-Antworten: Boston und Sacramento, Columbia und San Francisco, Chicago und Los Angeles, Cincinnati und San Bernadino
-Lösung: Chicago und Los Angeles
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Die Bezeichnung Eskimo für die Völker im nördlichen Polargebiet stammt etymologisch von dem Cree-Wort aayaskimeew ab. Wie wird dies übersetzt?
-Antworten: Schneeschuhflechter, Rohfleischesser, Menschen die eine andere Sprache sprechen, Kajakfahrer
-Lösung: Schneeschuhflechter
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welche zu Haiti gehörende Insel diente im 17. Jahrhundert insbesondere Piraten und Bukanieren als Unterschlupf?
-Antworten: Tortuga, Montserrat, Sint Eustatius, Barbados
-Lösung: Tortuga
+Frage:
+Antworten: , , ,
+Lösung:
 
 Südamerika**************************************************************
 
-Frage: Welche Sprache wird in fast allen südamerikanischen Staaten gesprochen?
-Antworten: Spanisch, Portugiesisch, Englisch, Französisch
-Lösung: Spanisch
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Vor der Ankunft der spanischen Eroberer herrschte welche Hochkultur in Südamerika?
-Antworten: Azteken, Tolteken, Inka, Maya
-Lösung: Inka
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welcher See ist mit einer Fläche von 8288 Quadratkilometern der größte See Südamerikas?
-Antworten: Maracaibo-See, Titicaca-See, Rio Desaguadero, Poopo-See
-Lösung: Titicaca-See
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welche Stadt in Brasilien hat die meisten Einwohner?
-Antworten: Manaus, Rio de Janeiro, Salvador, Sao Paulo
-Lösung: Sao Paulo
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Der längste Fluss in Südamerika ist zugleich einer der wasserreichsten Flüsse der Erde. Wie heißt er?
-Antworten: Amazonas, Rio Negro, Abuna, Aconcagua
-Lösung: Amazonas
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Wie heißt die Küstenwüste, die sich in Nordchile befindet?
-Antworten: Chihuahua-Wüste, Atacama-Wüste, Taklamakan-Wüste, Negev-Wüste
-Lösung: Atacama-Wüste
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Machu Picchu, eine gut erhaltene, ehemalige Inka-Stadt, befindet sich in welchem südamerikanischen Land?
-Antworten: Ecuador, Kolumbien, Peru, Bolivien
-Lösung: Peru
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Die beeindruckenden Iguazu-Wasserfälle befinden sich in welchem südamerikanischen Land?
-Antworten: Argentinien, Brasilien, Chile, Bolivien
-Lösung: Argentinien
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Welche Stadt in Brasilien ist für ihren farbenprächtigen Karneval bekannt?
-Antworten: Rio de Janeiro, Fortaleza, Recife, Belo Horizonte
-Lösung: Rio de Janeiro
+Frage:
+Antworten: , , ,
+Lösung:
 
-Frage: Wie heißt der höchste Berg Südamerikas?
-Antworten: Popocatepetl, Acatenango, Aconcagua, Chimborasso
-Lösung: Aconcagua
+Frage:
+Antworten: , , ,
+Lösung:

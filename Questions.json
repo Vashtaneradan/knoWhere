@@ -75,6 +75,553 @@
         "Ora et Orbi"
       ],
       "solution": "Urbi et Orbi"
+    },
+    {
+      "question": "Wo steht das größte Riesenrad Europas?",
+      "answer": [
+        "Großbritannien",
+        "Italien",
+        "Russland",
+        "Finnland",
+        "Dänemark",
+        "Schweden",
+        "Spanien",
+        "Deutschland"
+      ],
+      "solution": "Großbritannien"
+    },
+    {
+      "question": "Welche Länder gehören zum Baltikum?",
+      "answer": [
+        "Estland Lettland Litauen",
+        "Luxemburg Litauen Lettland",
+        "Finnland Norwegen Schweden",
+        "Niederlande Belgien Luxemburg",
+        "Frankreich Deutschland Östereich",
+        "Großbritanien Deutschland Frankreich",
+        "Italien Spanien Portugal",
+        "Kroatioen Tschechien Slowakei"
+      ],
+      "solution": "Estland Lettland Litauen"
+    },
+    {
+      "question": "Wo hat der Europäische Gerichtshof seinen Hauptsitz?",
+      "answer": [
+        "Luxemburg",
+        "Dänemark",
+        "Deutschland",
+        "Frankreich",
+        "Großbritanien",
+        "Belgien",
+        "Niederlande",
+        "Polen"
+      ],
+      "solution": "Luxemburg"
+    },
+    {
+      "question": "Welches Land gehört nicht zu Europa?",
+      "answer": [
+        "Marokko",
+        "Albanien",
+        "Liechtenstein",
+        "Mazedonien"
+      ],
+      "solution": "Marokko"
+    }
+  ],
+  "Nordamerika": [
+
+    {
+      "question": "In der Kindergeschichte „Oh, wie schön ist … “ von Janosch suchen der kleine Tiger und der kleine Bär nach welchem nordamerikanischen Land?",
+      "answer": [
+        "Panama",
+        "Mexiko",
+        "Honduras",
+        "Kanada",
+        "Sibirien",
+        "Alaska",
+        "New York",
+        "Hollywood"
+      ],
+      "solution": "Panama"
+    },
+    {
+      "question": "Welches mysteriöse Dreieck zwischen Florida, Bermuda und Puerto Rico sorgt mit zahlreichen Katastrophen für Schlagzeilen?",
+      "answer": [
+        "das Pythagoras-Dreieck",
+        "das Bermuda-Dreieck",
+        "das Dreieck von Linee",
+        "das Trilygon",
+        "das Polygon",
+        "das Dreieck des Anubis",
+        "das Winter Dreieck",
+        "das Geo- Dreieck"
+      ],
+      "solution": "das Bermuda-Dreieck"
+    },
+    {
+      "question": "Welches nordamerikanische Land hat die größte Fläche?",
+      "answer": [
+        "Kanada",
+        "Vereinigte Staaten",
+        "Mexiko",
+        "Grönland"
+      ],
+      "solution": "Kanada"
+    },
+    {
+      "question": "Welcher amerikanische Bundesstaat wird gerne von Kindern zum Abzählen von Sekunden benutzt? (eins … zwei … drei …)",
+      "answer": [
+        "Missouri",
+        "Arkansas",
+        "Ontario",
+        "Mississippi"
+      ],
+      "solution": "Mississippi"
+    },
+    {
+      "question": "Yucatan ist eine Halbinsel Mittelamerikas und war früher von Maya besiedelt. Was heißt Yucatan übersetzt aus Mayathan?",
+      "answer": [
+        "große Feuerinsel",
+        "Insel der Stürme",
+        "Ort des Reichtums",
+        "Ich verstehe deine Sprache nicht"
+      ],
+      "solution": "Ich verstehe deine Sprache nicht"
+    },
+    {
+      "question": "Wie heißt der höchste Berg Nordamerikas, der sich in Alaska befindet?",
+      "answer": [
+        "Mount Koyukon",
+        "Bolscha Gora",
+        "Mount McKinley",
+        "Mount Hudson"
+      ],
+      "solution": "Mount McKinley"
+    },
+    {
+      "question": "Der tiefste Punkt der Vereinigten Staaten ist das Death Valley. Wie tief unter dem Meeresspiegel liegt das Tal des Todes?",
+      "answer": [
+        "43 Meter",
+        "86 Meter",
+        "129 Meter",
+        "176 Meter"
+      ],
+      "solution": "86 Meter"
+    },
+    {
+      "question": "Welche beiden Städte verband die legendäre Route 66?",
+      "answer": [
+        "Boston und Sacramento",
+        "Columbia und San Francisco",
+        "Chicago und Los Angeles",
+        "Cincinnati und San Bernadino"
+      ],
+      "solution": "Chicago und Los Angeles"
+    },
+    {
+      "question": "Die Bezeichnung Eskimo für die Völker im nördlichen Polargebiet stammt etymologisch von dem Cree-Wort aayaskimeew ab. Wie wird dies übersetzt?",
+      "answer": [
+        "Schneeschuhflechter",
+        "Rohfleischesser",
+        "Menschen die eine andere Sprache sprechen",
+        "Kajakfahrer"
+      ],
+      "solution": "Schneeschuhflechter"
+    },
+    {
+      "question": "Welche zu Haiti gehörende Insel diente im 17. Jahrhundert insbesondere Piraten und Bukanieren als Unterschlupf?",
+      "answer": [
+        "Tortuga",
+        "Montserrat",
+        "Sint Eustatius",
+        "Barbados",
+        "Cuba",
+        "Haiti"
+      ],
+      "solution": "Tortuga"
+    }
+  ],
+  "Südamerika": [
+
+    {
+      "question": "Welche Sprache wird in fast allen südamerikanischen Staaten gesprochen?",
+      "answer": [
+        "Spanisch",
+        "Portugiesisch",
+        "Englisch",
+        "Französisch"
+      ],
+      "solution": "Spanisch"
+    },
+    {
+      "question": "Vor der Ankunft der spanischen Eroberer herrschte welche Hochkultur in Südamerika?",
+      "answer": [
+        "Azteken",
+        "Tolteken",
+        "Inka",
+        "Maya"
+      ],
+      "solution": "Inka"
+    },
+    {
+      "question": "Welcher See ist mit einer Fläche von 8288 Quadratkilometern der größte See Südamerikas?",
+      "answer": [
+        "Maracaibo-See",
+        "Titicaca-See",
+        "Rio Desaguadero",
+        "Poopo-See"
+      ],
+      "solution": "Titicaca-See"
+    },
+    {
+      "question": "Welche Stadt in Brasilien hat die meisten Einwohner?",
+      "answer": [
+        "Manaus",
+        "Rio de Janeiro",
+        "Salvador",
+        "Sao Paulo"
+      ],
+      "solution": "Sao Paulo"
+    },
+    {
+      "question": "Der längste Fluss in Südamerika ist zugleich einer der wasserreichsten Flüsse der Erde. Wie heißt er?",
+      "answer": [
+        "Amazonas",
+        "Rio Negro",
+        "Abuna",
+        "Aconcagua"
+      ],
+      "solution": "Amazonas"
+    },
+    {
+      "question": "Wie heißt die Küstenwüste, die sich in Nordchile befindet?",
+      "answer": [
+        "Chihuahua-Wüste",
+        "Atacama-Wüste",
+        "Taklamakan-Wüste",
+        "Negev-Wüste"
+      ],
+      "solution": "Atacama-Wüste"
+    },
+    {
+      "question": "Machu Picchu, eine gut erhaltene, ehemalige Inka-Stadt, befindet sich in welchem südamerikanischen Land?",
+      "answer": [
+        "Ecuador",
+        "Kolumbien",
+        "Peru",
+        "Bolivien"
+      ],
+      "solution": "Peru"
+    },
+    {
+      "question": "Die beeindruckenden Iguazu-Wasserfälle befinden sich in welchem südamerikanischen Land?",
+      "answer": [
+        "Argentinien",
+        "Brasilien",
+        "Chile",
+        "Bolivien"
+      ],
+      "solution": "Argentinien"
+    },
+    {
+      "question": "Welche Stadt in Brasilien ist für ihren farbenprächtigen Karneval bekannt?",
+      "answer": [
+        "Rio de Janeiro",
+        "Fortaleza",
+        "Recife",
+        "Belo Horizonte"
+      ],
+      "solution": "Rio de Janeiro"
+    },
+    {
+      "question": "Wie heißt der höchste Berg Südamerikas?",
+      "answer": [
+        "Popocatepetl",
+        "Acatenango",
+        "Aconcagua",
+        "Chimborasso"
+      ],
+      "solution": "Aconcagua"
+    }
+  ],
+  "Afrika": [
+
+    {
+      "question": "Welche dieser Wüsten befindet sich nicht in Afrika?",
+      "answer": [
+        "Sahara",
+        "Gobi",
+        "Kalahari",
+        "Namib"
+      ],
+      "solution": "Gobi"
+    },
+    {
+      "question": "Welcher Staat in Afrika erlangte im Juli 2011 die Unabhängigkeit?",
+      "answer": [
+        "Südsudan",
+        "Uganda",
+        "Ruanda",
+        "Burundi"
+      ],
+      "solution": "Südsudan"
+    },
+    {
+      "question": "Mit welcher afrikanischen Stadt hat Berlin eine Städtepartnerschaft?",
+      "answer": [
+        "Nairobi, Kenia",
+        "Harare, Simbabwe",
+        "Windhoek, Namibia",
+        "Maputo, Mosambik"
+      ],
+      "solution": "Windhoek, Namibia"
+    },
+    {
+      "question": "Welches ist das bevölkerungsreichste Land in Afrika?",
+      "answer": [
+        "Nigeria",
+        "Äthiopien",
+        "Kenia",
+        "Tansania"
+      ],
+      "solution": "Nigeria"
+    },
+    {
+      "question": "Wie viele Länder hat Afrika insgesamt?",
+      "answer": [
+        "60",
+        "42",
+        "34",
+        "54"
+      ],
+      "solution": "54"
+    },
+    {
+      "question": "In welchem Land befindet sich der Kibo, der höchste Berg Afrikas?",
+      "answer": [
+        "Kenia",
+        "Sambia",
+        "Mosambik",
+        "Tansania"
+      ],
+      "solution": "Tansania"
+    },
+    {
+      "question": "Was wurde im Februar 2012 tief im Boden von Afrika entdeckt?",
+      "answer": [
+        "große Kupfervorkommen",
+        "erhebliche Platinreserven",
+        "riesige Grundwassermengen",
+        "ausgiebige Erdölspeicher"
+      ],
+      "solution": "riesige Grundwassermengen"
+    },
+    {
+      "question": "Der Film „ … darf nicht sterben“ von Bernhard und Michael Grzimek erzählt von den Anfängen welches Nationalparks in Afrika?",
+      "answer": [
+        "Serengeti-Nationalpark",
+        "Chobe-Nationalpark",
+        "Caprivi-Nationalpark",
+        "Queen-Elizabeth-Nationalpark"
+      ],
+      "solution": " Serengeti-Nationalpark"
+    },
+    {
+      "question": "Welches ist die größte Insel in Afrika?",
+      "answer": [
+        "Sansibar",
+        "Madagaskar",
+        "Mauritius",
+        "La Reunion"
+      ],
+      "solution": "Madagaskar"
+    }
+  ],
+  "Asien": [
+
+    {
+      "question": "Welches ist das flächenmäßig größte Land in Asien?",
+      "answer": [
+        "Russland",
+        "China",
+        "Saudi-Arabien",
+        "Kasachstan"
+      ],
+      "solution": "Russland"
+    },
+    {
+      "question": "In welchem Land Leben die meisten Menschen in Asien?",
+      "answer": [
+        "Indien",
+        "China",
+        "Russland",
+        "Indonesien"
+      ],
+      "solution": "China"
+    },
+    {
+      "question": "Welcher asiatische See ist der tiefste und zugleich älteste See der Erde?",
+      "answer": [
+        "Baikalsee",
+        "Kawaguchi-See",
+        "Chenghai-See",
+        "Gurudongmar-See"
+      ],
+      "solution": "Baikalsee"
+    },
+    {
+      "question": "Der höchste Berg im Himalaya ist der … ?",
+      "answer": [
+        "K2",
+        "Mont Blanc",
+        "Mount Everest",
+        "Chamlang"
+      ],
+      "solution": "Mount Everest"
+    },
+    {
+      "question": "Angkor Wat, eine der bekanntesten Tempelanlagen in Asien, befindet sich in welchem asiatischen Land?",
+      "answer": [
+        "Kambodscha",
+        "Thailand",
+        "Vietnam",
+        "Tibet"
+      ],
+      "solution": "Kambodscha"
+    },
+    {
+      "question": "Für welchen Rohstoff gaben Dubai und die anderen Staaten der Vereinigten Arabischen Emirate 2014 rund 456 Millionen Dollar aus?",
+      "answer": [
+        "Wasser",
+        "Erdöl",
+        "Sand",
+        "Gold"
+      ],
+      "solution": "Sand"
+    },
+    {
+      "question": "In welchem Land zerstörten von den USA abgeworfene Chemikalien rund 44 Prozent der Waldbestände?",
+      "answer": [
+        "Südkorea",
+        "Laos",
+        "Vietnam",
+        "Nepal"
+      ],
+      "solution": "Vietnam"
+    },
+    {
+      "question": "Aus welchem Land kam Dschingis Khan, auch Temüjin genannt?",
+      "answer": [
+        "Ungarn",
+        "Mongolei",
+        "Türkei",
+        "Usbekistan"
+      ],
+      "solution": "Mongolei"
+    },
+    {
+      "question": "Alle heutigen Weltreligionen haben ihren Ursprung in Asien. Welche Religion hat in Asien die meisten Anhänger?",
+      "answer": [
+        "Hinduismus",
+        "Buddhismus",
+        "das Christentum",
+        "der Islam"
+      ],
+      "solution": "der Islam"
+    }
+  ],
+  "Australien/Ozeanien": [
+
+    {
+      "question": "Was war die höchste in °C gemessene Temperatur im australischen Outback?",
+      "answer": [
+        "71,4",
+        "69,3",
+        "51,9",
+        "60,2"
+      ],
+      "solution": "69,3"
+    },
+    {
+      "question": "Wie nennen die Aborigines den Ayers Rock, das bekannteste Wahrzeichen Australiens?",
+      "answer": [
+        "Tjukurpa",
+        "Palya",
+        "Uluru",
+        "Nyuntu"
+      ],
+      "solution": "Uluru"
+    },
+    {
+      "question": "Auf welcher polynesischen Insel stehen mysteriöse, kolossale Steinstatuen welche Moai genannt werden?",
+      "answer": [
+        "Tuvalu",
+        "Hawaii",
+        "Norfolk-Insel",
+        "Osterinsel"
+      ],
+      "solution": "Osterinsel"
+    },
+    {
+      "question": "Welches Tier hat Neuseeland als Nationaltier auserkoren?",
+      "answer": [
+        "Kiwi",
+        "Pinguin",
+        "Goldfisch",
+        "Albatros"
+      ],
+      "solution": "Kiwi"
+    },
+    {
+      "question": "In welcher Zeit herrscht in Australien Winter?",
+      "answer": [
+        "Dezember bis Februar",
+        "März bis Mai",
+        "Juni bis August",
+        "September bis November"
+      ],
+      "solution": "Juni bis August"
+    },
+    {
+      "question": "Vor der Nordküste Australiens befindet sich das größte Korallenriff der Erde. Das ...?",
+      "answer": [
+        "",
+        "Belize-Barrier-Reef",
+        "Neukaledonisches-Barrier-Reef",
+        "Mayotte-Barrier-Reef"
+      ],
+      "solution": "Great-Barrier-Reef"
+    },
+    {
+      "question": "Welche ist die größte Stadt (Einwohnerzahl) in Australien?",
+      "answer": [
+        "Sydney",
+        "Perth",
+        "Adelaide",
+        "Newcastle"
+      ],
+      "solution": "Sydney"
+    },
+    {
+      "question": "Wie heißt die Hauptstadt von Neuseeland?",
+      "answer": [
+        "Port Moresby",
+        "Auckland",
+        "Wellington",
+        "Melbourne"
+      ],
+      "solution": "Wellington"
+    },
+    {
+      "question": "Welcher Entdecker nahm Australien 1770 als Kolonie für die britische Krone in Besitz?",
+      "answer": [
+        "Vasco da Gama",
+        "Marco Polo",
+        "Christoph Kolumbus",
+        "James Cook"
+      ],
+      "solution": "James Cook"
     }
   ]
 }
