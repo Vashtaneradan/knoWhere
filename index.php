@@ -30,14 +30,14 @@ session_start();
         case "registrierungErfolgreich":
             require("Templates/registrierungErfolgreich.php"); //einbinden der erfolgreichen Registrierung
             break;
-        case "LoginErfolhreich":
-            require("Templates/loginErfolgreich.php"); //einbinden ders erfolgreichen Login
+        case "LoginErfolgreich":
+            require("Templates/loginErfolgreich.php"); //einbinden des erfolgreichen Logins
             break;
         case "RegisterPHP":
-            require("php/RegisterPHP.php"); //einbinden ders erfolgreichen Login
+            require("php/RegisterPHP.php"); //einbinden des erfolgreichen Logins
             break;
         case "LoginPHP":
-            require("php/LoginPHP.php"); //einbinden ders erfolgreichen Login
+            require("php/LoginPHP.php"); //einbinden des erfolgreichen Logins
             break;
         case "Quiz":
             require("php/getQuestion.php");
