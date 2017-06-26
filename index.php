@@ -39,6 +39,9 @@ session_start();
         case "LoginPHP":
             require("php/LoginPHP.php"); //einbinden des erfolgreichen Logins
             break;
+		case "SelectContinent":
+			require("Templates/SelectContinent.php");
+			break;
         case "Quiz":
             require("php/getQuestion.php");
             require("Templates/Quiz.php");
