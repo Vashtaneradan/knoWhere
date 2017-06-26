@@ -1,6 +1,6 @@
 <div id="quizwrapper">
 
-    <div id="kontinent"><?php
+    <div id="kontinent"> <p>aktueller Kontinent:</p><?php
         echo $_GET['Continent'];
         ?></div>
 

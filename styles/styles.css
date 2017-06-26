@@ -192,13 +192,17 @@ body {
 #kontinent{
     grid-column: 2;
     grid-row: 1;
-    background: #42f9ff;
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
 
 #highscore {
-    background: gold;
+    color: white;
     grid-column: 3;
     grid-row: 1;
+    text-align: center;
+    padding-top: 20px;
 }
 
 
@@ -211,20 +215,29 @@ body {
     text-align: center;
 }
 
+#question{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
 .answer-a {
     background-color: #00b3ff;
+    padding-top: 20px;
 }
 
 .answer-b {
     background-color: orangered;
+    padding-top: 20px;
 }
 
 .answer-c {
-    background-color: darkmagenta;
+    background-color: rgba(198, 0, 198, 0.65);
+    padding-top: 20px;
 }
 
 .answer-d {
     background-color: yellow;
+    padding-top: 20px;
 }
 
 #quiz input {
@@ -233,8 +246,12 @@ body {
 
 #quiz.red{
     background-color: #c74239;
+    padding-top: 20px;
+    font-size: 20px;
 }
 
 #quiz.green{
-    background-color: forestgreen;
+    background-color: rgba(60, 254, 60, 0.74);
+    padding-top: 20px;
+    font-size: 20px;
 }
