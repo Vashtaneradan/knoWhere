@@ -223,21 +223,25 @@ body {
 .answer-a {
     background-color: #00b3ff;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .answer-b {
     background-color: orangered;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .answer-c {
     background-color: rgba(198, 0, 198, 0.65);
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .answer-d {
     background-color: yellow;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 #quiz input {
