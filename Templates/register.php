@@ -14,7 +14,7 @@ if (!isset($_SESSION['errormsgReg']))
             <input type="password" name="password" id="password" required placeholder="Password">
             <label for="passwordrepeat">Passwort wiederholen:</label>
             <input type="password" name="passwordrepeat" id="passwordrepeat" required placeholder="Password (again)">
-            <input type="submit" value="Register" name="btnregister" id="btnregister">
+            <input type="submit" value="Registrieren" name="btnregister" id="btnregister">
         </form>
         <p><a href="index.php?page=login">oder zurück zum Login</a></p>
     </div>
