@@ -42,6 +42,9 @@ session_start();
 		case "SelectContinent":
 			require("Templates/SelectContinent.php");
 			break;
+		case "HighScore":
+			require("Templates/HighScore.php");
+			break;
         case "Quiz":
             require("php/getQuestion.php");
             require("Templates/Quiz.php");

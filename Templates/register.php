@@ -4,7 +4,7 @@ if (!isset($_SESSION['errormsgReg']))
 ?>
 <!--Formular für das registrieren -->
 <div id="registerwrapper">
-    <h1>Register</h1>
+    <h1>Registrieren</h1>
     <div id="fehlerMeldungRegistrierung">
         <?php echo $_SESSION['errormsgReg'] ?>
         <form name="register" method="post" action="index.php?page=RegisterPHP" id="register">
