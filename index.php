@@ -53,6 +53,7 @@ session_start();
                 require("Templates/SelectContinent.php");
                 break;
             case "HighScore":
+                require("php/getHighScore.php");
                 require("Templates/HighScore.php");
                 break;
             case "QuizScore":

@@ -7,6 +7,11 @@
         ?>
     </div>
     <div id="scoreWrapper">
+        <?php
+        foreach ($scoreList as $scoreLine) {
+            echo "<h3>" . $scoreLine['username'] . "</h3>";
+        }
+        ?>
 
     </div>
 
