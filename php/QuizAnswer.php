@@ -40,6 +40,7 @@ if ($_POST["answer"] == $actualQuestion["solution"]) {
     //Antwort = Lösung
     $thisTimeRight = true;
     $_SESSION["rightAnswer"]++;
+    $_SESSION["score"]+=50;
     if ($_SESSION['rightAnswer'] % 2 == 0) {
         $_SESSION['hearts'] = $_SESSION['rightAnswer'] / 2;
     }

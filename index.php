@@ -19,44 +19,58 @@ session_start();
     if (!isset($_GET["page"])) {
         $_GET['page'] = 'login'; //parameter standardmäßig auf login setzten
     }
-    //herausfinden über parameter page welde Datei geladen werden soll
-    switch ($_GET["page"]) {
-        case "register":
-            require("Templates/register.php"); //einbinden der Registrierung
-            break;
-        case "menue":
-            require("Templates/menue.php"); //einbinden der Registrierung
-            break;
-        case "registrierungErfolgreich":
-            require("Templates/registrierungErfolgreich.php"); //einbinden der erfolgreichen Registrierung
-            break;
-        case "LoginErfolgreich":
-            require("Templates/loginErfolgreich.php"); //einbinden des erfolgreichen Logins
-            break;
-        case "RegisterPHP":
-            require("php/RegisterPHP.php"); //einbinden des erfolgreichen Logins
-            break;
-        case "LoginPHP":
-            require("php/LoginPHP.php"); //einbinden des erfolgreichen Logins
-            break;
-		case "SelectContinent":
-			require("Templates/SelectContinent.php");
-			break;
-		case "HighScore":
-			require("Templates/HighScore.php");
-			break;
-        case "Quiz":
-            require("php/getQuestion.php");
-            require("Templates/Quiz.php");
-            break;
-        case "QuizAnswer":
-            require("php/QuizAnswer.php");
-            require("Templates/QuizAnswered.php");
-            break;
-        case "login":
-        default: //falls keine passende datei gefunden wurde
-            require("Templates/login.php"); //einbinden der Loginseite
-            break;
+    //verhindert das ansprechen von seiten ohne login
+    if (!isset($_SESSION['username']) || !$_SESSION['username']) {
+        switch ($_GET["page"]) {
+            case "RegisterPHP":
+                require("php/RegisterPHP.php"); //einbinden des erfolgreichen Logins
+                break;
+            case "register":
+                require("Templates/register.php"); //einbinden der Registrierung
+                break;
+            case "LoginPHP":
+                require("php/LoginPHP.php"); //einbinden des erfolgreichen Logins
+                break;
+            case "login":
+            default: //falls keine passende datei gefunden wurde
+                require("Templates/login.php"); //einbinden der Loginseite
+                break;
+        }
+    }
+    if (isset($_SESSION['username']) && $_SESSION['username']) {
+        //herausfinden über parameter page welde Datei geladen werden soll
+        switch ($_GET["page"]) {
+            case "registrierungErfolgreich":
+                require("Templates/registrierungErfolgreich.php"); //einbinden der erfolgreichen Registrierung
+                break;
+            case "LoginErfolgreich":
+                require("Templates/loginErfolgreich.php"); //einbinden des erfolgreichen Logins
+                break;
+            case "LogoutPHP":
+                require("php/LogoutPHP.php"); //einbinden des erfolgreichen Logins
+                break;
+            case "SelectContinent":
+                require("Templates/SelectContinent.php");
+                break;
+            case "HighScore":
+                require("Templates/HighScore.php");
+                break;
+            case "QuizScore":
+                require("Templates/QuizScore.php");
+                break;
+            case "Quiz":
+                require("php/getQuestion.php");
+                require("Templates/Quiz.php");
+                break;
+            case "QuizAnswer":
+                require("php/QuizAnswer.php");
+                require("Templates/QuizAnswered.php");
+                break;
+            case "menue":
+            default: //falls keine passende datei gefunden wurde
+                require("Templates/menue.php"); //einbinden der Registrierung
+                break;
+        }
     }
     ?>
 </div>

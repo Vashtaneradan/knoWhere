@@ -72,6 +72,11 @@ body {
     margin-left: 67px;
 }
 
+.error{
+    text-align: center;
+    font-size: 16px;
+}
+
 /*-------------Registrieren----------------------------------*/
 
 #registerwrapper h1, #register, #registerwrapper p {
@@ -218,30 +223,40 @@ body {
 #question{
     padding-top: 40px;
     font-size: 20px;
+    border: solid #555555 2px;
+}
+
+#questionAnswerd{
+    padding-top: 40px;
+    font-size: 20px;
 }
 
 .answer-a {
     background-color: #00b3ff;
     padding-top: 20px;
     cursor: pointer;
+    border: solid #555555 2px;
 }
 
 .answer-b {
     background-color: orangered;
     padding-top: 20px;
     cursor: pointer;
+    border: solid #555555 2px;
 }
 
 .answer-c {
     background-color: rgba(198, 0, 198, 0.65);
     padding-top: 20px;
     cursor: pointer;
+    border: solid #555555 2px;
 }
 
 .answer-d {
     background-color: yellow;
     padding-top: 20px;
     cursor: pointer;
+    border: solid #555555 2px;
 }
 
 #quiz input {
@@ -296,4 +311,49 @@ body {
     grid-row: 2;
     grid-column: 1;
     background-color: gold;
+}
+
+/*----------------------QuizScore----------------------------*/
+
+#currentScoreWrapper{
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 25% 50% 25%;
+    font-size: 20px;
+    color: white;
+}
+
+#currentScoreWrapper h1{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#currentScoreWrapper #heartsScore{
+    grid-row: 2;
+    grid-column: 2;
+    padding-top: 20px;
+}
+
+#currentScoreWrapper #scoredScore{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#currentScoreWrapper .button{
+    background-color: #00b3ff;
+    border: solid;
+    border-color: #333333;
+    color: #333333;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 65px;
+    margin-right: 65px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    grid-row: 4;
+    grid-column: 2;
 }

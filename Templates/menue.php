@@ -3,11 +3,22 @@
     <div class="left">
         <div class="wrap11">
             <div class="table">
-                <!-- <a class="button" href="index.php?page=Quiz&Continent=Europa">Start</a> -->
             	<a class="button" id="btn1" href="index.php?page=SelectContinent">Start</a>
+            </div>
+        </div>
+        <div class="wrap11">
+            <div class="table">
                 <a class="button" id="btn2" href="index.php?page=HighScore">High Score</a>
+            </div>
+        </div>
+        <div class="wrap11">
+            <div class="table">
                 <a class="button" id="btn3" href="index.php?page=Options">Optionen</a>
-                <a class="button" id="btn4" href="index.php?page=login">Log Out</a>
+            </div>
+        </div>
+        <div class="wrap11">
+            <div class="table">
+                <a class="button" id="btn4" href="index.php?page=LogoutPHP">Log Out</a>
             </div>
         </div>
 
