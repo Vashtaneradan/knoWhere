@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
 }
 
 *, *:before, *:after {
@@ -21,17 +22,8 @@ body {
     margin: 0 auto;
     position: relative;
     background-color: #555;
-
 }
 
-/*#gamebody-background{
-    background-color: #555;
-
-}
-.gamebody-background{
-    background-color: #555555;
-}
-*/
 
 #logo {
     width: 30vw;
@@ -220,6 +212,15 @@ body {
     text-align: center;
 }
 
+#quizanswer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: greenyellow;
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+}
+
 #question{
     padding-top: 40px;
     font-size: 20px;
@@ -236,6 +237,7 @@ body {
     padding-top: 20px;
     cursor: pointer;
     border: solid #555555 2px;
+    font-weight: bold;
 }
 
 .answer-b {
@@ -243,6 +245,7 @@ body {
     padding-top: 20px;
     cursor: pointer;
     border: solid #555555 2px;
+    font-weight: bold;
 }
 
 .answer-c {
@@ -250,6 +253,7 @@ body {
     padding-top: 20px;
     cursor: pointer;
     border: solid #555555 2px;
+    font-weight: bold;
 }
 
 .answer-d {
@@ -257,19 +261,20 @@ body {
     padding-top: 20px;
     cursor: pointer;
     border: solid #555555 2px;
+    font-weight: bold;
 }
 
 #quiz input {
     display: none;
 }
 
-#quiz.red{
+#quizanswer.red{
     background-color: #c74239;
     padding-top: 20px;
     font-size: 20px;
 }
 
-#quiz.green{
+#quizanswer.green{
     background-color: rgba(60, 254, 60, 0.74);
     padding-top: 20px;
     font-size: 20px;
@@ -311,7 +316,17 @@ body {
 #HighScoreWrapper #scoreWrapper{
     grid-row: 2;
     grid-column: 1;
-    background-color: gold;
+    overflow-y: auto;
+    text-align: center;
+}
+
+#HighScoreWrapper th{
+    color: orange;
+    font-size: 22px;
+}
+
+#HighScoreWrapper .currentUser{
+    color: #00b8ff;
 }
 
 /*----------------------QuizScore----------------------------*/
@@ -320,8 +335,9 @@ body {
     display: grid;
     grid-template-rows: 2fr 2fr 2fr 2fr;
     grid-template-columns: 25% 50% 25%;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
+    height: 100%;
 }
 
 #currentScoreWrapper h1{
@@ -350,7 +366,7 @@ body {
     margin-left: 65px;
     margin-right: 65px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     text-align: center;
     display: table-cell;

@@ -1,25 +1,31 @@
 [
   {
     "username": "andrea",
-    "date": 0,
+    "date": 1497672979,
     "score": 1234,
     "hearts": 3
   },
   {
+    "username": "andrea",
+    "date": 1497672979,
+    "score": 1222,
+    "hearts": 3
+  },
+  {
     "username": "ich",
-    "date": 0,
+    "date": 1498672979,
     "score": 12,
     "hearts": 0
   },
   {
     "username": "du",
-    "date": 0,
+    "date": 1498672979,
     "score": 1234,
     "hearts": 3
   },
   {
     "username": "es",
-    "date": 0,
+    "date": 1497672979,
     "score": 14,
     "hearts": 1
   }

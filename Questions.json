@@ -1,17 +1,4 @@
 {
-  "test":[
-    {
-      "question": "IS this test?",
-      "answer": [
-        "Nein1",
-        "Nein2",
-        "Nein3",
-        "Nein4",
-        "Nein5"
-      ],
-      "solution": "Ja"
-    }
-  ],
   "Europa": [
     {
       "question": "Höchster Berg Europas?",

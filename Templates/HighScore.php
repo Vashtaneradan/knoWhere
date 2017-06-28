@@ -2,16 +2,31 @@
     <div id="info">
         <h1>High Score</h1>
 
-        <?php
-        echo "<h2>" . $_SESSION['username'] . "</h2>"
-        ?>
     </div>
     <div id="scoreWrapper">
-        <?php
-        foreach ($scoreList as $scoreLine) {
-            echo "<h3>" . $scoreLine['username'] . "</h3>";
-        }
-        ?>
+        <table style="width:100%">
+            <tr>
+                <th>Username</th>
+                <th>Datum</th>
+                <th>Score</th>
+                <th>Herzen</th>
+            </tr>
+            <?php
+            foreach ($scoreList as $scoreLine) {
+                if ($_SESSION['username'] === $scoreLine['username']) {
+                    echo '<tr class="currentUser">';
+                } else {
+                    echo '<tr>';
+                }
+
+                echo '<td>' . $scoreLine['username'] . '</td>';
+                echo '<td>' . date('j.n.Y', $scoreLine['date']) . '</td>';
+                echo '<td>' . $scoreLine['score'] . '</td>';
+                echo '<td>' . $scoreLine['hearts'] . '</td>';
+                echo '</tr>';
+            }
+            ?>
+        </table>
 
     </div>
 

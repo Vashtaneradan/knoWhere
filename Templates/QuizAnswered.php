@@ -15,7 +15,7 @@
             ?></div>
     </div>
 
-    <div id="quiz" class="<?php echo $thisTimeRight ? 'green' : 'red';?>">
+    <div id="quizanswer" class="<?php echo $thisTimeRight ? 'green' : 'red';?>">
         <div id="questionAnswerd"><?php
             echo $actualQuestion["question"];
             ?>
