@@ -50,6 +50,13 @@ session_start();
             require("php/QuizAnswer.php");
             require("Templates/QuizAnswered.php");
             break;
+		case "QuizTransitionGame":
+			require("Templates/QuizTransitionGame.php");
+			break;
+		case "Game" :
+			require("php/getGameQuestions.php");
+			require("Templates/Game.php");
+			break;
         case "login":
         default: //falls keine passende datei gefunden wurde
             require("Templates/login.php"); //einbinden der Loginseite

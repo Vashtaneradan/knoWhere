@@ -1,6 +1,7 @@
 <div id="quizwrapper">
 
     <div id="kontinent"> <p>aktueller Kontinent:</p><?php
+    	$_SESSION['currContinent'] = $_GET['Continent'];
         echo $_GET['Continent'];
         ?></div>
 

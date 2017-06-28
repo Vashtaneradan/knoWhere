@@ -19,7 +19,8 @@ if (!isset($_SESSION["questionCounter"])) {
     $_SESSION["questionCounter"] = 0;
 } else {
     if ($_SESSION["questionCounter"] >= 6) {
-        die('Glückwunsch das Quiz hast du geschafft :)');
+        //die('Glückwunsch das Quiz hast du geschafft :)');
+		header('Location: index.php?page=QuizTransitionGame');
     }
 }
 
