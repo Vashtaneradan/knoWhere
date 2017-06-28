@@ -20,7 +20,7 @@ if (!isset($_SESSION['score']))
 	$_SESSION['score'] = 0;
 }
 
-if ($_SESSION['hearts'] <= 0)
+if ($_SESSION['hearts'] < 0)
 {
 	die('GAME OVER MAN! GAME OVER!');
 }

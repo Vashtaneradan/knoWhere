@@ -19,7 +19,7 @@
     	?>    	
     </div>
     
-    <form name="updateVariables" action="GameEval.php" method="post">
+    <form name="updateVariables" action="index.php?page=GameEval" method="post">
  		<input type="hidden" name="hearts" value="" />
  		<input type="hidden" name="score" value="" />
  		<input type="hidden" name="correct" value="" />

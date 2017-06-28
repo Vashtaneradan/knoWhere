@@ -57,6 +57,9 @@ session_start();
 			require("php/getGameQuestions.php");
 			require("Templates/Game.php");
 			break;
+		case "GameEval" :
+			require("Templates/GameEval.php");
+			break;
         case "login":
         default: //falls keine passende datei gefunden wurde
             require("Templates/login.php"); //einbinden der Loginseite

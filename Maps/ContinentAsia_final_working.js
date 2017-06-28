@@ -2,7 +2,7 @@ var rsr = Raphael('countrymap', '800', '600');
 
 countries = [];
 var auswahl = "";
-var divElement = document.getElementById("variablentausch");
+var divElement = document.getElementById("countryvariable");
 var currentCountry = divElement.textContent;
 var trimmedCurrentCountry = currentCountry.trim();
 var jsHearts = document.getElementById("heartsvariable").textContent; 
