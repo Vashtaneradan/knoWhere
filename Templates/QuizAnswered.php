@@ -4,7 +4,8 @@
     ?>
     <div id="kontinent"><p>aktueller Kontinent:</p><?php
         echo $_POST['Continent'];
-        ?></div>
+        ?>
+    </div>
 
     <div id="highscore">
         <div id="hearts">Herzen: <?php
@@ -15,18 +16,19 @@
             ?></div>
     </div>
 
-    <div id="quizanswer" class="<?php echo $thisTimeRight ? 'green' : 'red';?>">
-        <div id="questionAnswerd"><?php
+    <div id="quizanswer" class="quiz <?php echo $thisTimeRight ? 'green' : 'red'; ?>">
+        <div class="question"><?php
             echo $actualQuestion["question"];
             ?>
         </div>
 
 
-        <div>
+        <div class="solution">
             <?php
             $text = $thisTimeRight ? 'Richtig' : 'Leider Falsch';
             echo $text . '<br><br> Die Anwtort lautet: <br>' . $actualQuestion['solution'];
-            ?></div>
+            ?>
+        </div>
 
     </div>
 

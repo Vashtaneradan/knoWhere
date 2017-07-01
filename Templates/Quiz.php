@@ -1,37 +1,41 @@
 <div id="quizwrapper">
 
-    <div id="kontinent"> <p>aktueller Kontinent:</p><?php
-        echo $_GET['Continent'];
-        ?></div>
+    <div id="kontinent"> aktueller Kontinent:
+        <h3><?php
+            echo $_GET['Continent'];
+            ?>
+        </h3>
+    </div>
 
     <div id="highscore">
         <div id="hearts">Herzen: <?php
             echo $_SESSION['hearts'];
-            ?></div>
+            ?>
+        </div>
         <div id="score">Score: <?php
             echo $_SESSION['score'];
-            ?></div>
+            ?>
+        </div>
     </div>
 
-    <form method="post"
-          action="index.php?page=QuizAnswer"
-          id="quiz">
-        <div id="question"><?php
+    <form id="quiz" class="quiz" method="post"
+          action="index.php?page=QuizAnswer">
+        <div id="question" class="question"><?php
             echo $randomQuestion["question"];
             ?>
         </div>
 
 
-        <label class="answer-a" for="a"><?php
+        <label class="answer answer-a" for="a"><?php
             echo $randomAnswers[0];
             ?></label>
-        <label class="answer-b" for="b"><?php
+        <label class="answer answer-b" for="b"><?php
             echo $randomAnswers[1];
             ?></label>
-        <label class="answer-c" for="c"><?php
+        <label class="answer answer-c" for="c"><?php
             echo $randomAnswers[2];
             ?></label>
-        <label class="answer-d" for="d"><?php
+        <label class="answer answer-d" for="d"><?php
             echo $randomAnswers[3];
             ?></label>
 
