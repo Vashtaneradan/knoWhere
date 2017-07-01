@@ -74,11 +74,12 @@ if ($_SESSION['gameQuestionCounter'] >= 6)
 			die('Spiel vorbei! Alle Kontinente wurden gespielt!');
 		}
 		else 
+			//wieder zurueck zur WorldMap
 		{
 			header('Location: index.php?page=GameTransitionContinentSelect');
 		}
 		
-		//wieder zurueck zur WorldMap
+		
 		
 }
 

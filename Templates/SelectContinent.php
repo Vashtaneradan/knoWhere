@@ -13,3 +13,10 @@
 		<script src="js/raphael-min.js"></script>
 		<script src="Maps/WorldMap.js"></script>
 		<script src="js/WorldMapScript.js"></script>
+		<style>
+			#worldmap{
+				height: 100%;
+				width: 100%;				
+			}
+			
+		</style>
