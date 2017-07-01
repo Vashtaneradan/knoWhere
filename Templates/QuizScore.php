@@ -8,6 +8,7 @@
         echo $_SESSION['score'];
         ?></div>
 
+
     <a class="button" href="index.php?page=Game">weiter zum Spiel</a>
 
 </div>

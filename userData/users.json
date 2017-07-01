@@ -10,5 +10,9 @@
     "kanti": {
         "password": "1234",
         "bestScore": 0
+    },
+    "HARDY": {
+        "password": "josef",
+        "bestScore": 0
     }
 }

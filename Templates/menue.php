@@ -13,26 +13,21 @@
         </div>
         <div class="wrap11">
             <div class="table">
-                <a class="button" id="btn3" href="index.php?page=Options">Optionen</a>
-            </div>
-        </div>
-        <div class="wrap11">
-            <div class="table">
-                <a class="button" id="btn4" href="index.php?page=LogoutPHP">Log Out</a>
+                <a class="button" id="btn3" href="index.php?page=LogoutPHP">Log Out</a>
             </div>
         </div>
 
     </div>
     <div class="right">
         <h1>Anleitung</h1>
-        <p>Wähle einen Kontinen aus auf dem du spielen möchtest</p>
-        <p>gespielte Kontinente werden orange und blau hinterlegt,
-        noch nicht gespielte Kontinente erscheinen in grau.</p>
-        <p>Wenn der Kontinent gewählt ist startet das Quiz
-        6 Fragen sind zu beantworten. Je 2 Richtige gibt es ein Herz.</p>
+        <p>Wähle einen Kontinent aus, auf dem du spielen möchtest.</p>
+        <p>Gespielte Kontinente werden Orange und Blau hinterlegt,
+        noch nicht gespielte Kontinente erscheinen in Grau.</p>
+        <p>Wenn der Kontinent gewählt ist startet das Quiz.
+        6 Fragen sind zu beantworten. Für 2 Richtige Antworten bekommt man ein Herz.</p>
         <p>Dann startet das Spiel.
-            Innerhalb der gegebenen Zeit muss ein Hauptstadt
-            im dazugehörigen Land gefunden werden </p>
+            Innerhalb der gegebenen Zeit muss eine Hauptstadt
+            im dazugehörigen Land gefunden werden. </p>
         <p>Wenn alles beantwortet ist kann der nächste Kontinent gespielt werden.</p>
         <p>Viel Spaß</p>
     </div>
