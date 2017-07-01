@@ -9,12 +9,14 @@ session_start();
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>knoWhere</title>
+    <!--Stylesheet zum festlegen von standard Einstellungen/CSS um gleiches aussehen in verschiedenen Browsern zu ermöglichen-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
     <link href="styles/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
 </head>
 <body>
 
-<div id="logo"><img src="graphics/logo/knoWhere_Logo@4x.png"></div> <!-- logo einbinden -->
+<div id="logo"><a href="index.php"><img src="graphics/logo/knoWhere_Logo@4x.png"></a></div> <!-- logo einbinden -->
 <div id="gamebody">
     <?php
     if (!isset($_GET["page"])) {
