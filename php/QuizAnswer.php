@@ -17,7 +17,7 @@ if (!isset($_SESSION["questionCounter"])) {
 }
 
 $Questions = [];
-$data = json_decode(file_get_contents('Questions.json'), true); // Daten aus Datei laden
+$data = loadData('Questions.json'); // Daten aus Datei laden
 // itteriert über alle Kontinente + Fragen
 foreach ($data as $Continent => $QuestionsOfContinent) {
     // wenn Kontinent == dem gewählten Kontinent dann alle Fragen in $Questions speichern

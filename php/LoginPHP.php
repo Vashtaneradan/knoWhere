@@ -9,7 +9,7 @@ if (!isset($_POST['btnlogin']) || !isset($_POST['username']) || !isset($_POST['p
 }
 
 //.json laden
-$userList = json_decode(file_get_contents('userData/users.json'), true); // Daten aus Datei laden
+$userList = loadData('userData/users.json'); // Daten aus Datei laden
 foreach ($userList as $userName => $user) {
     // === exakt gleich (also auch datentyp!!!)
     if ($userName === $_POST['username'] && $user['password'] === $_POST['password']) {

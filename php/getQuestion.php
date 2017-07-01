@@ -19,15 +19,15 @@ if (!isset($_SESSION["questionCounter"])) {
     $_SESSION["questionCounter"] = 0;
 } else {
     if ($_SESSION["questionCounter"] >= 6) {
-		$_SESSION["questionCounter"] = 0;
-	    	$_SESSION["rightAnswer"] = 0;
-		$_SESSION['questionIDs'] = [];
+        $_SESSION["questionCounter"] = 0;
+        $_SESSION["rightAnswer"] = 0;
+        $_SESSION['questionIDs'] = [];
         header("Location: index.php?page=QuizScore");
     }
 }
 
 $Questions = [];
-$data = json_decode(file_get_contents('Questions.json'), true); // Daten aus Datei laden
+$data = loadData('Questions.json'); // Daten aus Datei laden
 // itteriert über alle Kontinente + Fragen
 foreach ($data as $Continent => $QuestionsOfContinent) {
     // wenn Kontinent == dem gewählten Kontinent dann alle Fragen in $Questions speichern
@@ -44,7 +44,7 @@ if (count($Questions) == 0) {
 if (count($Questions) < 6) {
     die("nicht genügend Fragen für '" . $_GET['Continent'] . "' gefunden!");
 }
-if(count($_SESSION['questionIDs']) == count($Questions)){
+if (count($_SESSION['questionIDs']) == count($Questions)) {
     die("Es wurden schon alle fragen gestellt");
 }
 do {

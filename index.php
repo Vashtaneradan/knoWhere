@@ -18,6 +18,7 @@ session_start();
 <div id="logo"><a href="index.php"><img src="graphics/logo/knoWhere_Logo@4x.png"></a></div>
 <div id="gamebody">
     <?php
+    require "php/functions.php";
     if (!isset($_GET["page"])) {
         $_GET['page'] = 'login'; //parameter standardmäßig auf login setzten
     }

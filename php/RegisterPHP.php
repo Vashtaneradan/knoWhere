@@ -1,5 +1,5 @@
 <?php
-$userList = json_decode(file_get_contents('userData/users.json'), true); // Daten aus Datei laden
+$userList = loadData('userData/users.json'); // Daten aus Datei laden
 $_SESSION['errormsgReg'] = '';
 
 // wenn login oder username oder passwort nicht gesetzt fehler
@@ -35,7 +35,7 @@ $userList[$_POST['username']] = [
 ];
 
 //$userList in Datei speichern
-file_put_contents('userData/users.json', json_encode($userList, JSON_PRETTY_PRINT));
+saveData('userData/users.json', $userList);
 unset($_SESSION['errormsgReg']);
 unset($_SESSION['errormsg']);
 header("location:index.php?page=registrierungErfolgreich");
