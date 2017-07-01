@@ -2,6 +2,7 @@
 
     <div id="kontinent"> <p>aktueller Kontinent:</p><?php
         echo $_GET['Continent'];
+		$_SESSION['currContinent'] = $_GET['Continent'];
         ?></div>
 
     <div id="highscore">

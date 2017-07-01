@@ -51,6 +51,7 @@ session_start();
                 require("php/LogoutPHP.php"); //einbinden des erfolgreichen Logins
                 break;
             case "SelectContinent":
+				require("php/InitSelectContinentVariables.php");
                 require("Templates/SelectContinent.php");
                 break;
             case "HighScore":
@@ -68,6 +69,16 @@ session_start();
                 require("php/QuizAnswer.php");
                 require("Templates/QuizAnswered.php");
                 break;
+			case "Game" :
+				require("php/getGameQuestions.php");
+				require("Templates/Game.php");
+				break;
+			case "GameEval" :
+				require("Templates/GameEval.php");
+				break;
+			case "GameTransitionContinentSelect" :
+				require("Templates/GameTransitionContinentSelect.php");
+				break;
             case "menue":
             default: //falls keine passende datei gefunden wurde
                 require("Templates/menue.php"); //einbinden der Registrierung
