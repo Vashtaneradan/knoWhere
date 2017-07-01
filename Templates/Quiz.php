@@ -3,6 +3,7 @@
     <div id="kontinent"> aktueller Kontinent:
         <h3><?php
             echo $_GET['Continent'];
+            $_SESSION['currContinent'] = $_GET['Continent'];
             ?>
         </h3>
     </div>
