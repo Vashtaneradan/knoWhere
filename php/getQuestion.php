@@ -20,6 +20,7 @@ if (!isset($_SESSION["questionCounter"])) {
 } else {
     if ($_SESSION["questionCounter"] >= 6) {
 		$_SESSION["questionCounter"] = 0;
+	    	$_SESSION["rightAnswer"] = 0;
 		$_SESSION['questionIDs'] = [];
         header("Location: index.php?page=QuizScore");
     }
