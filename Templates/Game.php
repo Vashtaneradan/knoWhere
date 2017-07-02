@@ -18,12 +18,11 @@
             echo $_SESSION['score'];
             ?></div>
     </div>
-    
     <div id="gameQuestion">
         <div id="frage">Wähle folgendes Land:</div>
         <div id="countryQuestion"><?php echo $randomCountry['country']; ?></div>
     </div>
-   
+
     <form name="updateVariables" action="index.php?page=GameEval" method="post">
         <input id="POSTHearts" type="hidden" name="hearts" value=""/>
         <input id="POSTScore" type="hidden" name="score" value=""/>

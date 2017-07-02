@@ -11,6 +11,10 @@ body, html {
     box-sizing: inherit;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    color: #ff931e;
+}
+
 .button {
     background-color: #00b3ff;
     border: solid #333333;
@@ -23,6 +27,8 @@ body, html {
 
     display: block;
     line-height: 3;
+
+    border-radius: 10px;
 }
 
 .filledhearts {
@@ -67,28 +73,37 @@ body {
     height: 15vh;
 }
 
+/*-------------Login AND Register---------------------*/
+
+.form input[type=text],.form input[type=password]{
+    line-height: 3;
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    background-color: #3b4148;
+}
+
 /*-------------Login----------------------------------*/
 
 #loginwrapper h1, #login, #loginwrapper p {
-    width: 173px;
+    width: 250px;
     margin: 0 auto;
 }
 
 #btnlogin {
-    margin-left: 125px;
+    width: 100%;
+    line-height: 2;
+    margin: 0;
 }
 
 #loginwrapper h1, #login input, #loginwrapper p {
     margin-top: 5px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 #loginwrapper {
     padding-top: 10%;
-}
-
-#loginwrapper h1 {
-    color: #fff;
 }
 
 #loginwrapper a {
@@ -100,30 +115,33 @@ body {
     text-align: center;
     font-size: 18px;
     margin-bottom: 10px;
+    background: #b72f2f;
+    border-radius: 10px;
+    padding: 3%;
 }
 
 /*-------------Registrieren----------------------------------*/
 
 #registerwrapper h1, #register, #registerwrapper p {
-    width: 173px;
+    width: 250px;
     margin: 0 auto;
 }
 
 #btnregister {
-    margin-left: 108px;
+    width: 100%;
+    line-height: 2;
+    margin: 0;
 }
 
 #registerwrapper h1, #register input, #registerwrapper p {
     margin-top: 5px;
     margin-bottom: 20px;
+    width: 100%;
+
 }
 
 #registerwrapper {
     padding-top: 10%;
-}
-
-#registerwrapper h1 {
-    color: #fff;
 }
 
 #registerwrapper a {
@@ -290,6 +308,7 @@ body {
 #HighScoreWrapper #info {
     grid-column: 1;
     grid-row: 1;
+    padding: 0 3%;
 }
 
 #HighScoreWrapper #scoreWrapper {

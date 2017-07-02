@@ -10,7 +10,7 @@
         echo $_SESSION['score'];
         ?></div>
 
-    <?php 
+    <?php
     resetGame();
     ?>
     <a class="button" href="index.php?page=SelectContinent">weiter zur Kontinentauswahl</a>

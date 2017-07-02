@@ -5,7 +5,6 @@
 	</p>
 </div>
 
-
 <div id="playedAsienVariablePHP" style="display: none;"><?php echo $_SESSION['playedAsien']; ?></div>
 <div id="playedAfrikaVariablePHP" style="display: none;"><?php echo $_SESSION['playedAfrika']; ?></div>
 <div id="playedAustralien_OzeanienVariablePHP"

@@ -1,8 +1,8 @@
 <div id="gamewrapper">
-	<?php
-	$_SESSION['hearts'] = $_POST['hearts'];
+    <?php
+    $_SESSION['hearts'] = $_POST['hearts'];
     $_SESSION['score'] = $_POST['score'];
-	$clickedOn = $_POST['clicked'];
+    $clickedOn = $_POST['clicked'];
     $_SESSION['gameQuestionCounter'] += 1;
 
     if ($_SESSION['hearts'] < 0) {
@@ -12,8 +12,10 @@
     } else {
         header("refresh:5;url=index.php?page=Game");
     }
-	?>
-<div id="aktuellerKontinent"> aktueller Kontinent:
+    $arrayPos = $_SESSION['playedCountries'][count($_SESSION['playedCountries']) - 1];
+    $_SESSION['playedCountriesAnswered'][] = $arrayPos;
+    ?>
+    <div id="aktuellerKontinent"> aktueller Kontinent:
         <h3><?php
             echo $_SESSION["Continent"];
             ?>
@@ -32,25 +34,23 @@
             ?></div>
     </div>
     <div id="gameResponse">
-    	<div id="gameResponseMessage">
-    	<?php
-    		$richtig = $_POST['correct'];
-    		if ($richtig === "ja") 
-    		{
-       	 		echo "<p id='gameCorrectAnswer'>Das war richtig!</p>";
-    		}
-    		if ($richtig == "nein") 
-    		{
+        <div id="gameResponseMessage">
+            <?php
+            $richtig = $_POST['correct'];
+            if ($richtig === "ja") {
+                echo "<p id='gameCorrectAnswer'>Das war richtig!</p>";
+            }
+            if ($richtig == "nein") {
 
-        		echo "<p id='gameWrongAnswer'>Das war leider falsch!</p>";
-				echo "<p id='gameWrongAnswer'>Du hast auf " . $clickedOn . " geklickt!</p>";
-    		}	
-    	?>
-    	</div>
-    	<div id="gameQuestionCountMessage">
-    	<?php
-    		echo "Du hast " . $_SESSION['gameQuestionCounter'] . " Frage(n) gespielt";
-    	?>
-    	</div>
+                echo "<p id='gameWrongAnswer'>Das war leider falsch!</p>";
+                echo "<p id='gameWrongAnswer'>Du hast auf " . $clickedOn . " geklickt!</p>";
+            }
+            ?>
+        </div>
+        <div id="gameQuestionCountMessage">
+            <?php
+            echo "Du hast " . $_SESSION['gameQuestionCounter'] . " Frage(n) gespielt";
+            ?>
+        </div>
     </div>
 </div>

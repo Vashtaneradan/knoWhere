@@ -3,7 +3,7 @@ $_SESSION['errormsg'] = '';
 
 // wenn login oder username oder passwort nicht gesetzt fehler
 if (!isset($_POST['btnlogin']) || !isset($_POST['username']) || !isset($_POST['password'])) {
-    $_SESSION['errormsg'] = "<div class='error' style='color:red'>Login-Daten unvollständig!</div>";
+    $_SESSION['errormsg'] = "<div class='error'>&#x26a0; Login-Daten unvollständig!</div>";
     header("location:index.php");
     exit;
 }
@@ -30,6 +30,6 @@ foreach ($userList as $userName => $user) {
  * aufrufen
  * */
 
-$_SESSION['errormsg'] = "<div class='error' style='color:red'>Login-Daten ungültig!</div>";
+$_SESSION['errormsg'] = "<div class='error'>&#x26a0; Login-Daten ungültig!</div>";
 header("location:index.php");
 exit;
