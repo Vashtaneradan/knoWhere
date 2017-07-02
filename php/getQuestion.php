@@ -18,13 +18,13 @@ if (!isset($_SESSION["score"])) {
 if (!isset($_SESSION["questionIDs"])) {
     $_SESSION["questionIDs"] = [];
 }
-if (!isset($_SESSION["questionIDsAnswered"])) {
-    $_SESSION["questionIDsAnswered"] = [];
-}
 if (!isset($_SESSION["questionCounter"])) {
     $_SESSION["questionCounter"] = 0;
 } else {
     if ($_SESSION["questionCounter"] >= 6) {
+        $_SESSION["questionCounter"] = 0;
+        $_SESSION["rightAnswer"] = 0;
+        $_SESSION['questionIDs'] = [];
         header("Location: index.php?page=QuizScore");
     }
 }
@@ -50,18 +50,12 @@ if (count($Questions) < 6) {
 if (count($_SESSION['questionIDs']) == count($Questions)) {
     die("Es wurden schon alle fragen gestellt");
 }
-
-// verhindern das bei neuladen nicht beantwortete Fragen übersprungen werden können
-if ($_SESSION["questionIDsAnswered"] == $_SESSION["questionIDs"]) {
-    do {
+do {
 // zufällige Frage holen
-        $questionID = mt_rand(0, count($Questions) - 1);
-    } while (in_array($questionID, $_SESSION['questionIDs']));
+    $questionID = mt_rand(0, count($Questions) - 1);
+} while (in_array($questionID, $_SESSION['questionIDs']));
 
-    $_SESSION['questionIDs'][] = $questionID;
-} else {
-    $questionID = $_SESSION['questionIDs'][count($_SESSION['questionIDs']) - 1];
-}
+$_SESSION['questionIDs'][] = $questionID;
 $randomQuestion = $Questions[$questionID];
 
 //zufällige Antwort für zufällige Frage

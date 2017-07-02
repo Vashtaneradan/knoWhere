@@ -6,7 +6,6 @@
             ?>
         </h3>
     </div>
-
     <div id="highscore">
         <div id="hearts">Herzen: <?php
             echo '<span class="filledhearts">';
@@ -19,17 +18,17 @@
             echo $_SESSION['score'];
             ?></div>
     </div>
+    
     <div id="gameQuestion">
-        <p>Bitte wählen Sie folgendes Land:</p>
-        <?php
-        echo $randomCountry['country'];
-        ?>
+        <div id="frage">Wähle folgendes Land:</div>
+        <div id="countryQuestion"><?php echo $randomCountry['country']; ?></div>
     </div>
-
+   
     <form name="updateVariables" action="index.php?page=GameEval" method="post">
         <input id="POSTHearts" type="hidden" name="hearts" value=""/>
         <input id="POSTScore" type="hidden" name="score" value=""/>
         <input id="POSTCorrect" type="hidden" name="correct" value=""/>
+        <input id="POSTClicked" type="hidden" name="clicked" value=""/>
     </form>
 
     <div id="countryvariable" style="display: none;">
@@ -55,9 +54,6 @@
     </div>
     <!--<h3 id="kontinentname"></h3>-->
     <script src="js/raphael-min.js"></script>
-    <div id="region-name">
-        <!-- Raphael JS Map Here -->
-    </div>
     <?php
 
     if ($_SESSION["Continent"] == "Nordamerika") {

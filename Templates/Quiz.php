@@ -42,6 +42,8 @@
             echo $randomAnswers[3];
             ?></label>
 
+        <input type="hidden" value="<?php echo $questionID; ?>" name="questionID">
+
         <input type="submit" value="<?php echo $randomAnswers[0]; ?>" name="answer" id="a">
         <input type="submit" value="<?php echo $randomAnswers[1]; ?>" name="answer" id="b">
         <input type="submit" value="<?php echo $randomAnswers[2]; ?>" name="answer" id="c">

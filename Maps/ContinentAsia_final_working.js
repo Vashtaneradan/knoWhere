@@ -217,18 +217,21 @@ for (var i = 0; i < countries.length; i++) {
 
 
     countries[i].mouseover(function(e){
-        this.node.style.opacity = 0.7;
-        document.getElementById('region-name').innerHTML = this.data('name');
+    	this.node.style.fill = "orange";
+        //this.node.style.opacity = 0.7;
+        //document.getElementById('region-name').innerHTML = this.data('name');
 		//document.getElementById('region-name').innerHTML = this.data('name');
     });
 
     countries[i].mouseout(function(e){
-        this.node.style.opacity = 1;
+        //this.node.style.opacity = 1;
+        this.node.style.fill = "#777777";
     });
 	
 	countries[i].click(function(e)
 	{
 		console.log("Du hast auf "+ this.data('name') + " geklickt!");
+		var jsClicked = this.data('name');
 		auswahl = this.data('name');
 		console.log("currentCountry:" + trimmedCurrentCountry);
 		console.log("auswahl:"+auswahl);
@@ -240,6 +243,7 @@ for (var i = 0; i < countries.length; i++) {
 		document.getElementById("POSTHearts").value = jsHearts;
 		document.getElementById("POSTScore").value = jsScore;
 		document.getElementById("POSTCorrect").value = "ja";
+		document.getElementById("POSTClicked").value = jsClicked;
 		document.forms["updateVariables"].submit();
 	}
 	else
@@ -250,7 +254,14 @@ for (var i = 0; i < countries.length; i++) {
 		document.getElementById("POSTHearts").value = jsHearts;
 		document.getElementById("POSTScore").value = jsScore;
 		document.getElementById("POSTCorrect").value = "nein";
+		document.getElementById("POSTClicked").value = jsClicked;
 		document.forms["updateVariables"].submit();
 	}
 	});
 }
+
+rsr.setViewBox(80,0,730,600,true);
+
+var jsSVG = document.querySelector("svg");
+jsSVG.removeAttribute("width");
+jsSVG.removeAttribute("height");

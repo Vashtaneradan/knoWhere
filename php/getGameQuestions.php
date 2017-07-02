@@ -16,9 +16,6 @@ if(!isset($_SESSION['playedContinents']))
 if (!isset($_SESSION['playedCountries'])) {
     $_SESSION['playedCountries'] = [];
 }
-if (!isset($_SESSION['playedCountriesAnswered'])) {
-    $_SESSION['playedCountriesAnswered'] = [];
-}
 if (!isset($_SESSION['score'])) {
     $_SESSION['score'] = 0;
 }
@@ -95,17 +92,11 @@ if (count($gameQuestions) == 0) {
 if (count($gameQuestions) < 6) {
     die("´Nicht genug Länder da um Abfrage zu starten!");
 }
-if (count($_SESSION['playedCountries']) == count($gameQuestions)) {
-    die("Es wurden schon alle Länder gefragt");
-}
-if ($_SESSION['playedCountriesAnswered'] == $_SESSION['playedCountries']) {
-    do {
-// zufällige Frage holen
-        $arrayPos = mt_rand(0, count($gameQuestions) - 1);
-    } while (in_array($gameQuestions[$arrayPos], $_SESSION['playedCountries']));
 
-    $_SESSION['playedCountries'][] = $arrayPos;
-}else{
-    $arrayPos = $_SESSION['playedCountries'][count($_SESSION['playedCountries']) - 1];
-}
+do {
+// zufällige Frage holen
+    $arrayPos = mt_rand(0, count($gameQuestions) - 1);
+} while (in_array($gameQuestions[$arrayPos], $_SESSION['playedCountries']));
+
+array_push($_SESSION['playedCountries'], $gameQuestions[$arrayPos]);
 $randomCountry = $gameQuestions[$arrayPos];
