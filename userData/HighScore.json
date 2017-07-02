@@ -1,12 +1,6 @@
 {
     "Europa": [
         {
-            "username": "kanti",
-            "date": 1499015326,
-            "score": 1260,
-            "hearts": 3
-        },
-        {
             "username": "andrea",
             "date": 1498941409,
             "score": 1040,
@@ -30,7 +24,47 @@
             "username": "kanti",
             "date": 1498988917,
             "score": 600,
+            "hearts": 6
+        }
+    ],
+    "Australien_Ozeanien": [
+        {
+            "username": "konsti",
+            "date": 1499012097,
+            "score": 470,
+            "hearts": 1
+        },
+        {
+            "username": "konsti",
+            "date": 1499014518,
+            "score": 600,
             "hearts": 0
+        },
+        {
+            "username": "konsti",
+            "date": 1499015050,
+            "score": 820,
+            "hearts": 1
+        },
+        {
+            "username": "konsti",
+            "date": 1499019314,
+            "score": 650,
+            "hearts": 0
+        }
+    ],
+    "Suedamerika": [
+        {
+            "username": "konsti",
+            "date": 1499014705,
+            "score": 600,
+            "hearts": 0
+        },
+        {
+            "username": "konsti",
+            "date": 1499017611,
+            "score": 870,
+            "hearts": 1
         }
     ]
 }

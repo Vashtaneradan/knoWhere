@@ -103,7 +103,7 @@ for (var i = 0; i < unplayedContinents.length; i++)
 		this.node.style.fill = "#777777";
 		//this.node.style.opacity = '1.0';
 		
-		document.getElementById('kontinentname').innerHTML = '';
+		document.getElementById('kontinentname').innerHTML = 'Nichts ausgewählt';
 	});
 	
 	unplayedContinents[i].click(function(e)

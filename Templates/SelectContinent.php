@@ -1,7 +1,9 @@
 <div id="worldmap">
     <!-- Raphael JS Map Here -->
+	<p id="kontinentname">
+		Nichts ausgewählt
+	</p>
 </div>
-<h3 id="kontinentname"></h3>
 
 <div id="playedAsienVariablePHP" style="display: none;"><?php echo $_SESSION['playedAsien']; ?></div>
 <div id="playedAfrikaVariablePHP" style="display: none;"><?php echo $_SESSION['playedAfrika']; ?></div>

@@ -343,10 +343,97 @@ body {
 #currentScoreWrapper .filledhearts {
     font-size: 18px;
 }
+/*----------------------SelectContinent-----------------------*/
+#kontinentname {
+	color: #fff;
+}
+/*----------------------Game-----------------------*/
+#countryQuestion {
+	color: orange;
+}
+
+#gamewrapper {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 100px 1fr;
+    height: 100%;
+}
+
+#aktuellerKontinent {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 3%;
+}
+
+#gameQuestion {
+	color: white;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    padding-top: 20px;
+}
+/*----------------------GameEval-----------------------*/
+
+#gameResponse {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 2;
+    text-align: center;
+
+    margin: 0 auto 5%;
+    width: 550px;
+    max-width: 90%;
+
+    font-size: 20px;
+}
+
+#gameQuestionCountMessage {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 25%;
+}
+#gameResponseMessage {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 25%;
+}
+
+#gameWrongAnswer{
+	color: #c74239;
+}
+
+#gameCorrectAnswer {
+	color: rgba(60, 254, 60, 0.74);
+}
+/*----------------------GameTransitionContinentSelect-----------------------*/
+
+#GameTransitionContinentSelectWrapper {
+    font-size: 18px;
+    color: white;
+    height: 100%;
+    text-align: center;
+}
+
+#GameTransitionContinentSelectWrapper #heartsScore {
+    padding-top: 20px;
+}
+
+#GameTransitionContinentSelectWrapper .filledhearts {
+    font-size: 18px;
+}
 
 /*--------test------------------*/
-
+/*
 #worldmap svg {
     height: 100%;
     width: 100%;
-}
+}*/
