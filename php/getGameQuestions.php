@@ -61,7 +61,7 @@ if ($_SESSION['gameQuestionCounter'] >= 6) {
 
 
     saveScore($_SESSION['score'], $_SESSION['hearts'], $_SESSION['username'], $_SESSION["Continent"]);
-    resetGame();
+    //resetGame();
 
     if (($_SESSION['playedAsien'] == "Yes") && ($_SESSION['playedAfrika'] == "Yes") && ($_SESSION['playedAustralien_Ozeanien'] == "Yes") && ($_SESSION['playedEuropa'] == "Yes") && ($_SESSION['playedSuedamerika'] == "Yes") && ($_SESSION['playedNordamerika'] == "Yes")) {
         die('Spiel vorbei! Alle Kontinente wurden gespielt!');
