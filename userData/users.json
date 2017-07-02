@@ -1,18 +1,18 @@
 {
-    "andrea": {
-        "password": "1234",
-        "bestScore": 1234
-    },
-    "konsti": {
-        "password": "konstipw",
-        "bestScore": 0
-    },
-    "kanti": {
-        "password": "1234",
-        "bestScore": 0
-    },
-    "HARDY": {
-        "password": "josef",
-        "bestScore": 0
-    }
+  "andrea": {
+    "password": "1234",
+    "bestScore": 1234
+  },
+  "konsti": {
+    "password": "konstipw",
+    "bestScore": 0
+  },
+  "kanti": {
+    "password": "1234",
+    "bestScore": 0
+  },
+  "HARDY": {
+    "password": "josef",
+    "bestScore": 0
+  }
 }

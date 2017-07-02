@@ -17,7 +17,19 @@ function saveScore($score, $hearts, $username, $currContinent)
         "username" => $username,
         "date" => time(),
         "score" => $score,
-        "hearts" => $hearts
+        "hearts" => (int)$hearts
     ];
     saveData('userData/HighScore.json', $data);
+}
+
+
+function resetGame()
+{
+    $_SESSION['score'] = 0;
+    $_SESSION['hearts'] = 0;
+    $_SESSION["rightAnswer"] = 0;
+    $_SESSION["questionIDs"] = [];
+    $_SESSION["questionCounter"] = 0;
+    $_SESSION['gameQuestionCounter'] = 0;
+    unset($_SESSION["Continent"]);
 }

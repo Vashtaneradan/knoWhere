@@ -2,15 +2,17 @@
 
     <div id="kontinent"> aktueller Kontinent:
         <h3><?php
-            echo $_GET['Continent'];
-            $_SESSION['currContinent'] = $_GET['Continent'];
+            echo $_SESSION['Continent'];
             ?>
         </h3>
     </div>
 
     <div id="highscore">
         <div id="hearts">Herzen: <?php
-            echo $_SESSION['hearts'];
+            echo '<span class="filledhearts">';
+            echo str_repeat('&#x2764;', $_SESSION['hearts']);
+            echo '</span>';
+            echo str_repeat('&#x2661;', 3 - $_SESSION['hearts']);
             ?>
         </div>
         <div id="score">Score: <?php
@@ -40,7 +42,6 @@
             echo $randomAnswers[3];
             ?></label>
 
-        <input type="hidden" value="<?php echo $_GET['Continent']; ?>" name="Continent">
         <input type="hidden" value="<?php echo $questionID; ?>" name="questionID">
 
         <input type="submit" value="<?php echo $randomAnswers[0]; ?>" name="answer" id="a">

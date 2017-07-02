@@ -1,16 +1,30 @@
 {
-    "Europa": [
-        {
-            "username": "andrea",
-            "date": 1498941409,
-            "score": 1040,
-            "hearts": "2"
-        },
-        {
-            "username": "kanti",
-            "date": 1498941660,
-            "score": 820,
-            "hearts": "1"
-        }
-    ]
+  "Europa": [
+    {
+      "username": "andrea",
+      "date": 1498941409,
+      "score": 1040,
+      "hearts": 2
+    },
+    {
+      "username": "kanti",
+      "date": 1498941660,
+      "score": 820,
+      "hearts": 1
+    },
+    {
+      "username": "kanti",
+      "date": 1498988495,
+      "score": 600,
+      "hearts": 0
+    }
+  ],
+  "Nordamerika": [
+    {
+      "username": "kanti",
+      "date": 1498988917,
+      "score": 600,
+      "hearts": 6
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 <?php
-if (!isset($_SESSION['currContinent'])) {
+if (!isset($_SESSION["Continent"])) {
     die("Kein Kontinent gewaehlt!");
 }
 //Variablen setzen und prüfen
@@ -21,16 +21,17 @@ if (!isset($_SESSION['score'])) {
 }
 
 if ($_SESSION['hearts'] < 0) {
+    resetGame();
     die('GAME OVER MAN! GAME OVER!');
 }
 
 if ($_SESSION['gameQuestionCounter'] >= 6) {
     //aktuell gespielten Kontinent auf das
     //Array playedContinents in der Session drücken
-    //array_push($_SESSION['playedContinents'], $_SESSION['currContinent']);
+    //array_push($_SESSION['playedContinents'], $_SESSION["Continent"]);
     //gibt Probleme bei der Variablenübertragung in JS
     //Lösung durch switch
-    switch ($_SESSION['currContinent']) {
+    switch ($_SESSION["Continent"]) {
         case 'Asien':
             $_SESSION['playedAsien'] = "Yes";
             break;
@@ -58,15 +59,9 @@ if ($_SESSION['gameQuestionCounter'] >= 6) {
 
     $_SESSION['score'] += $herzbonus;
 
-    $_SESSION['gameQuestionCounter'] = 0;
 
-    saveScore($_SESSION['score'], $_SESSION['hearts'], $_SESSION['username'], $_SESSION['currContinent']);
-    $_SESSION['score'] = 0;
-    $_SESSION["rightAnswer"] = 0;
-    $_SESSION['hearts'] = 0;
-    $_SESSION["questionIDs"] = [];
-    $_SESSION["questionCounter"] = 0;
-    unset($_SESSION['currContinent']);
+    saveScore($_SESSION['score'], $_SESSION['hearts'], $_SESSION['username'], $_SESSION["Continent"]);
+    resetGame();
 
     if (($_SESSION['playedAsien'] == "Yes") && ($_SESSION['playedAfrika'] == "Yes") && ($_SESSION['playedAustralien_Ozeanien'] == "Yes") && ($_SESSION['playedEuropa'] == "Yes") && ($_SESSION['playedSuedamerika'] == "Yes") && ($_SESSION['playedNordamerika'] == "Yes")) {
         die('Spiel vorbei! Alle Kontinente wurden gespielt!');
@@ -84,7 +79,7 @@ $gameData = loadData('gameQuestions.json'); // Daten aus Datei laden
 // itteriert über alle Kontinente + Fragen
 foreach ($gameData as $Continent => $CountriesOfContinent) {
     // wenn Kontinent == dem gewählten Kontinent dann alle Fragen in $Questions speichern
-    if ($_SESSION["currContinent"] == $Continent) {
+    if ($_SESSION["Continent"] == $Continent) {
         $gameQuestions = $CountriesOfContinent;
         break;
     }

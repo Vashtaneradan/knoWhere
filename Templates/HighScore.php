@@ -13,7 +13,7 @@
             </tr>
             <?php
             foreach ($scoreList as $continent => $item) {
-                echo '<tr><td>' . $continent .'</td></tr>';
+                echo '<tr><td>' . $continent . '</td></tr>';
                 foreach ($item as $scoreLine) {
                     if ($_SESSION['username'] === $scoreLine['username']) {
                         echo '<tr class="currentUser">';
@@ -25,7 +25,7 @@
                     echo '<td>' . $scoreLine['username'] . '</td>';
                     echo '<td>' . date('j.n.Y', $scoreLine['date']) . '</td>';
                     echo '<td>' . $scoreLine['score'] . '</td>';
-                    echo '<td>' . $scoreLine['hearts'] . '</td>';
+                    echo '<td class="filledhearts">' . str_repeat('&#x2764;', $scoreLine['hearts']) . '</td>';
                     echo '</tr>';
                 }
             }

@@ -1,6 +1,6 @@
 <?php
 $scoreList = loadData('userData/HighScore.json'); // Daten aus Datei laden
-foreach ($scoreList as $continent => &$item) {
+foreach ($scoreList as $continent => $item) {
     usort($item, function ($a, $b) {
         if ($a['score'] == $b['score']) {
             if ($a['hearts'] == $b['hearts']) {
@@ -16,5 +16,6 @@ foreach ($scoreList as $continent => &$item) {
         //nach score sortieren
         return ($a['score'] > $b['score']) ? -1 : 1;
     });
+    $scoreList[$continent] = $item;
 }
 saveData('userData/HighScore.json', $scoreList);

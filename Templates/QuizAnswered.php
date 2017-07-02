@@ -1,19 +1,26 @@
 <div id="quizwrapper">
     <?php
-    header("refresh:3;url=index.php?page=Quiz&Continent=" . $_POST["Continent"]);
+    header("refresh:3;url=index.php?page=Quiz");
     ?>
-    <div id="kontinent"><p>aktueller Kontinent:</p><?php
-        echo $_POST['Continent'];
-        ?>
+    <div id="kontinent"> aktueller Kontinent:
+        <h3><?php
+            echo $_SESSION["Continent"];
+            ?>
+        </h3>
     </div>
 
     <div id="highscore">
         <div id="hearts">Herzen: <?php
-            echo $_SESSION['hearts'];
-            ?></div>
+            echo '<span class="filledhearts">';
+            echo str_repeat('&#x2764;', $_SESSION['hearts']);
+            echo '</span>';
+            echo str_repeat('&#x2661;', 3 - $_SESSION['hearts']);
+            ?>
+        </div>
         <div id="score">Score: <?php
             echo $_SESSION['score'];
-            ?></div>
+            ?>
+        </div>
     </div>
 
     <div id="quizanswer" class="quiz <?php echo $thisTimeRight ? 'green' : 'red'; ?>">

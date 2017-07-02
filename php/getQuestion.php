@@ -1,8 +1,11 @@
 <?php
-if (!isset($_GET["Continent"])) {
-    die("Kontinent nicht gesetzt");
-}
 //Variabeln setzten
+if (!isset($_SESSION["Continent"])) {
+    if (!isset($_GET["Continent"])) {
+        die("Kontinent nicht gesetzt");
+    }
+    $_SESSION["Continent"] = $_GET['Continent'];
+}
 if (!isset($_SESSION["hearts"])) {
     $_SESSION["hearts"] = 0;
 }
@@ -31,7 +34,7 @@ $data = loadData('Questions.json'); // Daten aus Datei laden
 // itteriert über alle Kontinente + Fragen
 foreach ($data as $Continent => $QuestionsOfContinent) {
     // wenn Kontinent == dem gewählten Kontinent dann alle Fragen in $Questions speichern
-    if ($_GET["Continent"] == $Continent) {
+    if ($_SESSION["Continent"] == $Continent) {
         $Questions = $QuestionsOfContinent;
         break;
     }
@@ -39,10 +42,10 @@ foreach ($data as $Continent => $QuestionsOfContinent) {
 
 //wenn Kontinent Fragen "noch" nicht vorhanden
 if (count($Questions) == 0) {
-    die("keine Fragen zum Kontinent '" . $_GET['Continent'] . "' gefunden!");
+    die("keine Fragen zum Kontinent '" . $_SESSION["Continent"] . "' gefunden!");
 }
 if (count($Questions) < 6) {
-    die("nicht genügend Fragen für '" . $_GET['Continent'] . "' gefunden!");
+    die("nicht genügend Fragen für '" . $_SESSION["Continent"] . "' gefunden!");
 }
 if (count($_SESSION['questionIDs']) == count($Questions)) {
     die("Es wurden schon alle fragen gestellt");

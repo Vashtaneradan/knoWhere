@@ -25,6 +25,11 @@ body, html {
     line-height: 3;
 }
 
+.filledhearts {
+    color: red;
+    font-size: 14px;
+}
+
 /* fancy zeugs siehe https://css-tricks.com/box-sizing/   */
 /*----------------index----------------------------------*/
 body {
@@ -182,6 +187,7 @@ body {
     text-align: center;
     color: white;
     font-size: 20px;
+    padding-top: 3%;
 }
 
 #highscore {
@@ -311,9 +317,12 @@ body {
     text-align: center;
 }
 
-
 #currentScoreWrapper #heartsScore {
     padding-top: 20px;
+}
+
+#currentScoreWrapper .filledhearts {
+    font-size: 18px;
 }
 
 /*--------test------------------*/
