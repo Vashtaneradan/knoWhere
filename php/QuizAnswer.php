@@ -35,7 +35,9 @@ if (count($Questions) == 0) {
 $_SESSION["questionCounter"]++;
 
 //Continent:gewählter Kontinent questionID:... answer: von user
-$actualQuestion = $Questions[$_POST["questionID"]];
+$questionID = $_SESSION["questionIDs"][count($_SESSION['questionIDs']) - 1];
+$_SESSION["questionIDsAnswered"][] = $questionID;
+$actualQuestion = $Questions[$questionID];
 if ($_POST["answer"] == $actualQuestion["solution"]) {
     //Antwort = Lösung
     $thisTimeRight = true;

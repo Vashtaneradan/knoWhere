@@ -27,9 +27,10 @@ function resetGame()
 {
     $_SESSION['score'] = 0;
     $_SESSION['hearts'] = 0;
-    $_SESSION["rightAnswer"] = 0;
-    $_SESSION["questionIDs"] = [];
-    $_SESSION["questionCounter"] = 0;
+    $_SESSION['rightAnswer'] = 0;
+    $_SESSION['questionIDs'] = [];
+    $_SESSION['questionCounter'] = 0;
     $_SESSION['gameQuestionCounter'] = 0;
-    unset($_SESSION["Continent"]);
+    $_SESSION['questionIDsAnswered'] = [];
+    unset($_SESSION['Continent']);
 }

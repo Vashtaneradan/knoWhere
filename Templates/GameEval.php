@@ -17,6 +17,8 @@
         echo "Du hast " . $_SESSION['hearts'] . "Herzen!";
     }
 
+    $arrayPos = $_SESSION['playedCountries'][count($_SESSION['playedCountries']) - 1];
+    $_SESSION['playedCountriesAnswered'][] = $arrayPos;
 
     $richtig = $_POST['correct'];
     if ($richtig === "ja") {
