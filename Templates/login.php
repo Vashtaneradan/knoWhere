@@ -3,19 +3,19 @@ if (!isset($_SESSION['errormsg']))
     $_SESSION['errormsg'] = '';
 ?>
 <!--Formular für den Login -->
-<div id="loginwrapper">
-    <h1>Login</h1>
-    <div id="fehlerMeldungLogin">
-        <?php
-        echo $_SESSION['errormsg'];
-        ?>
-    </div>
+<div id="loginwrapper" class="form">
     <form name="loginFormular" method="post" action="index.php?page=LoginPHP" id="login">
-        <label for="username">Benutzername:</label>
-        <input type="text" name="username" id="username" required autofocus placeholder="Username">
-        <label for="password">Passwort:</label>
-        <input type="password" name="password" id="password" required placeholder="Password">
-        <input type="submit" value="Login" name="btnlogin" id="btnlogin">
+        <h1>Login</h1>
+        <div id="fehlerMeldungLogin">
+            <?php
+            echo $_SESSION['errormsg'];
+            ?>
+        </div>
+        <label for="username"></label>
+        <input type="text" name="username" id="username" required autofocus placeholder="Benutzername">
+        <label for="password"></label>
+        <input type="password" name="password" id="password" required placeholder="Passwort">
+        <input type="submit" value="Login" name="btnlogin" id="btnlogin" class="button">
+        <p><a href="index.php?page=register">oder registrieren</a></p>
     </form>
-    <p><a href="index.php?page=register">oder registrieren</a></p>
 </div>
