@@ -102,7 +102,7 @@ if ($_SESSION['playedCountriesAnswered'] == $_SESSION['playedCountries']) {
     do {
 // zufällige Frage holen
         $arrayPos = mt_rand(0, count($gameQuestions) - 1);
-    } while (in_array($arrayPos, $_SESSION['playedCountries']));
+    } while (in_array($gameQuestions[$arrayPos], $_SESSION['playedCountries']));
 
     $_SESSION['playedCountries'][] = $arrayPos;
 }else{

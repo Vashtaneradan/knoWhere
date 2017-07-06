@@ -12,8 +12,10 @@
     } else {
         header("refresh:5;url=index.php?page=Game");
     }
+	
     $arrayPos = $_SESSION['playedCountries'][count($_SESSION['playedCountries']) - 1];
     $_SESSION['playedCountriesAnswered'][] = $arrayPos;
+	
     ?>
     <div id="aktuellerKontinent"> aktueller Kontinent:
         <h3><?php

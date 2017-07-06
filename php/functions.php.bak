@@ -32,8 +32,8 @@ function resetGame()
     $_SESSION['questionCounter'] = 0;
     $_SESSION['gameQuestionCounter'] = 0;
     $_SESSION['questionIDsAnswered'] = [];
-	$_SESSION['playedCountriesAnswered'] = [];
-	$_SESSION['playedCountries'] = [];
+	//$_SESSION['playedCountriesAnswered'] = [];
+	//$_SESSION['playedCountries'] = [];
     unset($_SESSION['Continent']);
 }
 
