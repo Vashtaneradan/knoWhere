@@ -430,6 +430,14 @@ body {
 #GameTransitionContinentSelectWrapper .filledhearts {
     font-size: 18px;
 }
+/*----------------------GameOverWrapper-----------------------*/
+
+#GameOverWrapper {
+    font-size: 18px;
+    color: white;
+    height: 100%;
+    text-align: center;
+}
 
 /*--------test------------------*/
 /*

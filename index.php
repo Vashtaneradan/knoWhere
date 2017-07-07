@@ -81,6 +81,9 @@ session_start();
 			case "GameTransitionContinentSelect" :
 				require("Templates/GameTransitionContinentSelect.php");
 				break;
+			case "GameOver" :
+				require ("Templates/GameOver.php");
+				break;
             case "menue":
             default: //falls keine passende datei gefunden wurde
                 require("Templates/menue.php"); //einbinden der Registrierung
