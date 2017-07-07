@@ -12,12 +12,14 @@ if (!isset($_POST['btnlogin']) || !isset($_POST['username']) || !isset($_POST['p
 $userList = loadData('userData/users.json'); // Daten aus Datei laden
 foreach ($userList as $userName => $user) {
     // === exakt gleich (also auch datentyp!!!)
-    if ($userName === $_POST['username'] && $user['password'] === $_POST['password']) {
+    if ($userName === $_POST['username'] && $user['password'] === hash('sha512', $_POST['password'])) {
         /*falls benutzername und passwort übereinstimmen, dann
          * username in Session schreiben, letzen Fehler
          * falls vorhanden löschen und weiterleiten
          * */
+
         $_SESSION['username'] = $_POST['username'];
+
         unset($_SESSION['errormsg']);
         unset($_SESSION['errormsgReg']);
         header("location:index.php?page=LoginErfolgreich");

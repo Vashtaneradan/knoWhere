@@ -11,7 +11,7 @@ body, html {
     box-sizing: inherit;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #ff931e;
 }
 
@@ -29,6 +29,11 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 3;
 
     border-radius: 10px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background: #ff931e;
 }
 
 .filledhearts {
@@ -54,6 +59,7 @@ body {
     min-height: 60vh;
     margin: 0 auto;
     background-color: #555;
+    border-radius: 10px;
 
     overflow: hidden;
 }
@@ -73,9 +79,13 @@ body {
     height: 15vh;
 }
 
+.input{
+    color: white;
+}
+
 /*-------------Login AND Register---------------------*/
 
-.form input[type=text],.form input[type=password]{
+.form input[type=text], .form input[type=password] {
     line-height: 3;
     text-align: center;
     border-radius: 10px;
@@ -137,7 +147,6 @@ body {
     margin-top: 5px;
     margin-bottom: 20px;
     width: 100%;
-
 }
 
 #registerwrapper {
@@ -294,10 +303,14 @@ body {
 #HighScoreWrapper {
     color: white;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 100px 2fr 100px;
     grid-template-columns: 75% 25%;
     width: 100%;
     height: 100%;
+}
+
+#HighScoreWrapper table {
+    width: 100%
 }
 
 #HighScoreWrapper .button {
@@ -343,13 +356,15 @@ body {
 #currentScoreWrapper .filledhearts {
     font-size: 18px;
 }
+
 /*----------------------SelectContinent-----------------------*/
 #kontinentname {
-	color: #fff;
+    color: #fff;
 }
+
 /*----------------------Game-----------------------*/
 #countryQuestion {
-	color: orange;
+    color: orange;
 }
 
 #gamewrapper {
@@ -369,12 +384,13 @@ body {
 }
 
 #gameQuestion {
-	color: white;
+    color: white;
     grid-column: 1;
     grid-row: 1;
     text-align: center;
     padding-top: 20px;
 }
+
 /*----------------------GameEval-----------------------*/
 
 #gameResponse {
@@ -398,6 +414,7 @@ body {
     font-size: 20px;
     padding-top: 25%;
 }
+
 #gameResponseMessage {
     grid-column: 2;
     grid-row: 4;
@@ -407,13 +424,14 @@ body {
     padding-top: 25%;
 }
 
-#gameWrongAnswer{
-	color: #c74239;
+#gameWrongAnswer {
+    color: #c74239;
 }
 
 #gameCorrectAnswer {
-	color: rgba(60, 254, 60, 0.74);
+    color: rgba(60, 254, 60, 0.74);
 }
+
 /*----------------------GameTransitionContinentSelect-----------------------*/
 
 #GameTransitionContinentSelectWrapper {
@@ -430,6 +448,7 @@ body {
 #GameTransitionContinentSelectWrapper .filledhearts {
     font-size: 18px;
 }
+
 /*----------------------GameOverWrapper-----------------------*/
 
 #GameOverWrapper {

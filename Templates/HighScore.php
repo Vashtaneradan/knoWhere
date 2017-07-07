@@ -3,7 +3,7 @@
         <h1>High Score</h1>
     </div>
     <div id="scoreWrapper">
-        <table style="width:100%">
+        <table>
             <tr>
                 <th>Kontinent</th>
                 <th>Username</th>

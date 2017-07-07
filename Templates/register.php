@@ -9,9 +9,9 @@ if (!isset($_SESSION['errormsgReg']))
         <div id="fehlerMeldungRegistrierung">
             <?php echo $_SESSION['errormsgReg'] ?>
         </div>
-        <input type="text" name="username" id="username" required autofocus placeholder="Wunsch-Benutzername">
-        <input type="password" name="password" id="password" required placeholder="Passwort">
-        <input type="password" name="passwordrepeat" id="passwordrepeat" required placeholder="Passwort wiederholen">
+        <input type="text" name="username" id="username" class="input" required autofocus placeholder="Wunsch-Benutzername">
+        <input type="password" name="password" id="password" class="input" required placeholder="Passwort">
+        <input type="password" name="passwordrepeat" id="passwordrepeat" class="input" required placeholder="Passwort wiederholen">
         <input type="submit" value="Registrieren" name="btnregister" id="btnregister" class="button">
         <p><a href="index.php?page=login">oder zurück zum Login</a></p>
     </form>
