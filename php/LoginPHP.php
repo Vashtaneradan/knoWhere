@@ -10,9 +10,15 @@ if (!isset($_POST['btnlogin']) || !isset($_POST['username']) || !isset($_POST['p
 
 //.json laden
 $userList = loadData('userData/users.json'); // Daten aus Datei laden
-foreach ($userList as $userName => $user) {
+foreach ($userList as $userName => &$user) {
     // === exakt gleich (also auch datentyp!!!)
-    if ($userName === $_POST['username'] && $user['password'] === hash('sha512', $_POST['password'])) {
+    //verify password with password_verify method
+    if ($userName === $_POST['username'] && password_verify($_POST['password'], $user['password'])) {
+        //if algorithm changes we need to rehash the plaintext password
+        if (password_needs_rehash($user['password'], PASSWORD_DEFAULT)) {
+            $user['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
+            saveData('userData/users.json', $userList);
+        }
         /*falls benutzername und passwort übereinstimmen, dann
          * username in Session schreiben, letzen Fehler
          * falls vorhanden löschen und weiterleiten

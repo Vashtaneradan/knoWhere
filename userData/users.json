@@ -1,26 +1,8 @@
 {
     "andrea": {
-        "password": "1234",
-        "bestScore": 1234
-    },
-    "konsti": {
-        "password": "konstipw",
-        "bestScore": 0
+        "password": "$2y$10$f0RKomjvUUZuUTkTwVc3ROWBs4h.pS..Xs5yGGisPVkZ04JEpcUVC"
     },
     "kanti": {
-        "password": "1234",
-        "bestScore": 0
-    },
-    "HARDY": {
-        "password": "josef",
-        "bestScore": 0
-    },
-    "buck": {
-        "password": "passwort",
-        "bestScore": 0
-    },
-    "test": {
-        "password": "d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db",
-        "bestScore": 0
+        "password": "$2y$10$AoDZL2cdYM0wRujfrFgnTeXBxyZdDtOg2vTx9s4L4OnqAUoFny.BG"
     }
 }

@@ -28,13 +28,10 @@ if ($_POST['password'] != $_POST['passwordrepeat']) {
 // automatischer login wenn Registrierung erfolgreich
 $_SESSION['username'] = $_POST['username'];
 
-//passwort hashen um sicherheit zu erhöhen
-$hash = hash('sha512', $_POST['password']);
-
 //an den gesetzten user passwort und score setzten
 $userList[$_POST['username']] = [
-    'password' => $hash,
-    'bestScore' => 0
+    //passwort hashen mit random salt um Sicherheit zu erhöhen
+    'password' => password_hash($_POST['password'],PASSWORD_DEFAULT),
 ];
 
 //$userList in Datei speichern
