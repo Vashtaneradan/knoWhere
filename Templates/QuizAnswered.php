@@ -33,7 +33,7 @@
         <div class="solution">
             <?php
             $text = $thisTimeRight ? 'Richtig' : 'Leider Falsch';
-            echo $text . '<br><br> Die Anwtort lautet: <br>' . $actualQuestion['solution'];
+            echo $text . '<br><br> Die Antwort lautet: <br>' . $actualQuestion['solution'];
             ?>
         </div>
 
